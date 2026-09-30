@@ -1,0 +1,30 @@
+{
+  "audit_id": "REALPAIR005_ALIGNED_MIDDLE_TEST_V1_SIFT",
+  "descriptor": "SIFT",
+  "candidates": 900,
+  "training_candidates": 789,
+  "training_inliers": 785,
+  "training_inlier_ratio": 0.9949302915082383,
+  "heldout_candidates": 111,
+  "heldout_inliers": 93,
+  "heldout_inlier_ratio": 0.8378378378378378,
+  "all_inliers": 878,
+  "rmse_tmc_5m_px": 1.301624059677124,
+  "median_residual_tmc_5m_px": 0.9439500570297241,
+  "p90_residual_tmc_5m_px": 1.9853415489196777,
+  "occupied_cells_3x6": 11,
+  "hull_fraction": 0.3271016697122284,
+  "heldout_cycle_median_5m_px": 1.2628594636917114,
+  "fixed_support_gates": {
+    "train_inliers": 6,
+    "train_ratio": 0.4,
+    "heldout_inliers": 3,
+    "heldout_ratio": 0.4,
+    "occupied_cells": 6,
+    "hull_fraction": 0.15,
+    "cycle_px": 3.0
+  },
+  "image_gate_passed": true,
+  "registration_decision": "ABSTAIN_PENDING_INDEPENDENT_GROUND_CONTROL",
+  "runtime_seconds": 0.25822933300514705
+}

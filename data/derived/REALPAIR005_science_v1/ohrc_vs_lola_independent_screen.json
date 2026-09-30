@@ -1,0 +1,113 @@
+{
+  "audit_id": "REALPAIR005_OHRC_SCIENCE_VS_LOLA_120M_V1",
+  "data_type": "real OHRC science IMG / NASA LOLA DEM",
+  "projection": "OHRC SPICE rays through independently ASP-aligned TMC DTM; no image-derived pointing shift applied to ground coordinates",
+  "native_bin": "480x480 OHRC science pixels averaged per sample, about 120 m",
+  "camera_dtm_supported_bins": 3774,
+  "total_binned_samples": 5250,
+  "projected_valid_lola_cells": 4007,
+  "shift_convention": "Apply dx,dy 120 m pixels to OHRC SPICE-projected source to compare with LOLA hillshade",
+  "predicted_from_prior_dxdy_120m_px": [
+    -20.523165542583335,
+    34.89941278891667
+  ],
+  "representations": {
+    "intensity": {
+      "best": {
+        "zncc": 0.7976216077804565,
+        "dx_px": -21,
+        "dy_px": 35,
+        "cells": 4007
+      },
+      "zero": [
+        0.10982228815555573,
+        4007
+      ],
+      "at_prior_rounded": [
+        0.7976216077804565,
+        4007
+      ],
+      "coarse_top5": [
+        {
+          "zncc": 0.7961735129356384,
+          "dx_px": -20,
+          "dy_px": 34,
+          "cells": 4007
+        },
+        {
+          "zncc": 0.7709823846817017,
+          "dx_px": -22,
+          "dy_px": 36,
+          "cells": 4007
+        },
+        {
+          "zncc": 0.7538019418716431,
+          "dx_px": -20,
+          "dy_px": 36,
+          "cells": 4007
+        },
+        {
+          "zncc": 0.7300907373428345,
+          "dx_px": -18,
+          "dy_px": 32,
+          "cells": 4007
+        },
+        {
+          "zncc": 0.7256017327308655,
+          "dx_px": -18,
+          "dy_px": 34,
+          "cells": 4007
+        }
+      ]
+    },
+    "sobel_magnitude": {
+      "best": {
+        "zncc": 0.40001168847084045,
+        "dx_px": -20,
+        "dy_px": 34,
+        "cells": 4007
+      },
+      "zero": [
+        0.0436926893889904,
+        4007
+      ],
+      "at_prior_rounded": [
+        0.38206544518470764,
+        4007
+      ],
+      "coarse_top5": [
+        {
+          "zncc": 0.40001168847084045,
+          "dx_px": -20,
+          "dy_px": 34,
+          "cells": 4007
+        },
+        {
+          "zncc": 0.3274511396884918,
+          "dx_px": -20,
+          "dy_px": 36,
+          "cells": 4007
+        },
+        {
+          "zncc": 0.3154129385948181,
+          "dx_px": -22,
+          "dy_px": 36,
+          "cells": 4007
+        },
+        {
+          "zncc": 0.2742171883583069,
+          "dx_px": -18,
+          "dy_px": 32,
+          "cells": 4007
+        },
+        {
+          "zncc": 0.26453790068626404,
+          "dx_px": -18,
+          "dy_px": 34,
+          "cells": 4007
+        }
+      ]
+    }
+  },
+  "status": "DIAGNOSTIC_ONLY_NOT_GROUND_CONTROL"
+}

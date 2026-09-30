@@ -1,0 +1,32 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Do not commit large source imagery, camera cubes, or installed runtimes.
+data/raw/
+data/science/
+tools/miniconda-intel/
+tools/miniconda-intel.partial/
+tools/miniconda-intel.partial2/
+tools/asp-env/
+tools/vendor/
+node_modules/
+
+# Local build outputs and archives are generated from tracked source.
+output/
+*.tar
+*.tar.gz
+*.zip
+*.cub
+*.img
+*.tif
+*.tiff
+*.jp2

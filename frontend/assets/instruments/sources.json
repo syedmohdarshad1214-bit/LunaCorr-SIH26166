@@ -1,0 +1,24 @@
+{
+  "source_page": "https://pradan.issdc.gov.in/ch2/",
+  "publisher": "ISRO Science Data Archive (PRADAN/ISSDC)",
+  "images": [
+    {
+      "sensor": "OHRC",
+      "source_url": "https://pradan.issdc.gov.in/ch2/images/payloads/ohrc.bmp",
+      "local_preview": "ohrc.png",
+      "description": "Orbiter High Resolution Camera payload hardware"
+    },
+    {
+      "sensor": "TMC-2",
+      "source_url": "https://pradan.issdc.gov.in/ch2/images/payloads/tmc2.bmp",
+      "local_preview": "tmc2.png",
+      "description": "Terrain Mapping Camera-2 payload hardware, with three optical heads"
+    },
+    {
+      "sensor": "IIRS",
+      "source_url": "https://pradan.issdc.gov.in/ch2/images/payloads/iirs.bmp",
+      "local_preview": "iirs.png",
+      "description": "Imaging Infra-red Spectrometer payload hardware"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "audit_id": "REALPAIR005_ALIGNED_MIDDLE_PREFIT_SUPPORT_V1",
+  "grid": "native TMC-2 ortho 5 m/pixel",
+  "gate_px": 4.0,
+  "meaning": "Identity-map distance between projected OHRC and TMC tentative match positions, before local affine fit; candidate region already includes the frozen image-derived pointing prior.",
+  "methods": {
+    "SIFT": {
+      "input_matches_sha256": "d494090c81ec2d1533f5b25fb8c5c4ec0d6028451e362ba88134f6dbac939e4f",
+      "all_candidates": 900,
+      "within_4px_before_local_fit": 544,
+      "median_distance_before_local_fit_px": 3.491461050565457,
+      "heldout_candidates": 111,
+      "heldout_within_4px_before_local_fit": 102
+    },
+    "AKAZE": {
+      "input_matches_sha256": "53f3cf056a85fc8a1101848a1e4c094c273afcaa97bd1c33b91a60ecd4792a63",
+      "all_candidates": 426,
+      "within_4px_before_local_fit": 287,
+      "median_distance_before_local_fit_px": 3.2896129947404154,
+      "heldout_candidates": 56,
+      "heldout_within_4px_before_local_fit": 54
+    }
+  }
+}

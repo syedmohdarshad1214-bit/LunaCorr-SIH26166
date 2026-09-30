@@ -1,0 +1,22 @@
+{
+  "status": "REJECTED (geometry)",
+  "reason": "REJECT_GEOMETRY",
+  "candidate_count": 0,
+  "inlier_count": 0,
+  "inlier_ratio": null,
+  "cycle_closure_error": null,
+  "cycle_check": "UNAVAILABLE_IN_BASELINE",
+  "ground_error_m": null,
+  "ground_error_reference": "UNAVAILABLE",
+  "confidence": null,
+  "confidence_calibration": "UNCALIBRATED",
+  "target_working_grid": "SYNTHETIC target native 640x640 grid",
+  "runtime_s": 1.749999682942871e-06,
+  "scope": "Prepared overlap-grid baseline; held-out image matches are not independent ground truth.",
+  "software": {
+    "opencv": "4.13.0",
+    "numpy": "2.5.3"
+  },
+  "peak_process_memory_bytes": 294764544,
+  "memory_definition": "Process peak RSS including interpreter/dependencies and input checks, measured before report rendering."
+}

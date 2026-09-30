@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LunaCorr product inventory",
+  "description": "Local inventory format; not an upstream PDS4 schema. Null means pending/unknown and requires explanation in notes. Schema validity alone does not authorize downloads.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "sensor",
+      "product_id",
+      "product_type",
+      "acquisition_time",
+      "orbit",
+      "footprint",
+      "resolution_m",
+      "browse_file",
+      "science_file",
+      "xml_file",
+      "checksum",
+      "source",
+      "notes"
+    ],
+    "properties": {
+      "sensor": {
+        "enum": [
+          "OHRC",
+          "TMC-2",
+          "IIRS"
+        ]
+      },
+      "product_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "product_type": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "minLength": 1
+      },
+      "acquisition_time": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "minLength": 1
+      },
+      "orbit": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "minLength": 1
+      },
+      "footprint": {
+        "type": [
+          "object",
+          "null"
+        ],
+        "additionalProperties": false,
+        "required": [
+          "wkt",
+          "crs",
+          "datum",
+          "longitude_direction",
+          "longitude_domain",
+          "latitude_type",
+          "source_xml"
+        ],
+        "properties": {
+          "wkt": {
+            "type": "string",
+            "minLength": 1
+          },
+          "crs": {
+            "type": "string",
+            "minLength": 1
+          },
+          "datum": {
+            "type": "string",
+            "minLength": 1
+          },
+          "longitude_direction": {
+            "type": "string",
+            "minLength": 1
+          },
+          "longitude_domain": {
+            "type": "string",
+            "minLength": 1
+          },
+          "latitude_type": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_xml": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      },
+      "resolution_m": {
+        "type": [
+          "number",
+          "null"
+        ],
+        "exclusiveMinimum": 0
+      },
+      "browse_file": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "minLength": 1
+      },
+      "science_file": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "minLength": 1
+      },
+      "xml_file": {
+        "type": [
+          "string",
+          "null"
+        ],
+        "minLength": 1
+      },
+      "checksum": {
+        "type": "object",
+        "description": "Project-relative acquired file path to locally calculated SHA-256 digest.",
+        "additionalProperties": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "source": {
+        "type": "string",
+        "minLength": 1,
+        "description": "Official catalogue/product URL; never include credentials or session tokens."
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}

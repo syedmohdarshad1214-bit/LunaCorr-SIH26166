@@ -1,0 +1,184 @@
+[
+  {
+    "sensor": "OHRC",
+    "product_id": "ch2_ohr_ncp_20260103T1005176450_d_img_d18",
+    "product_type": "Calibrated",
+    "acquisition_time": "2026-01-03T10:05:17.645Z",
+    "orbit": "28372",
+    "footprint": null,
+    "resolution_m": 0.25,
+    "browse_file": null,
+    "science_file": null,
+    "xml_file": null,
+    "checksum": {
+      "data/raw/catalogue/ch2_ohr_ncp_20260103T1005176450_d_img_d18.json": "a0b573b06b914b3f13690bbb1bba2ab787e8fe6e6667f20578879d53d7bdfc3d"
+    },
+    "source": "https://chmapbrowse.issdc.gov.in/MapBrowse/",
+    "notes": "Real catalogue candidate only. Original XML, documented coordinate conventions, polygon intersection, browse verification and science acquisition are pending. Unknown acquisition/orbit/resolution values remain null until product metadata is inspected. Snapshot: data/raw/catalogue/ch2_ohr_ncp_20260103T1005176450_d_img_d18.json"
+  },
+  {
+    "sensor": "TMC-2",
+    "product_id": "ch2_tmc_ncn_20221205T1633075527_d_img_d32",
+    "product_type": "Calibrated",
+    "acquisition_time": "2022-12-05T16:33:07.552Z",
+    "orbit": "14612",
+    "footprint": null,
+    "resolution_m": 5.97,
+    "browse_file": "data/browse/ch2_tmc_ncn_20221205T1633075527_d_img_d32.png",
+    "science_file": null,
+    "xml_file": null,
+    "checksum": {
+      "data/raw/catalogue/ch2_tmc_ncn_20221205T1633075527_d_img_d32.json": "f83aecc85d935f8647e4cbfa560e2245061c6deeb48fa8a170ba8b52f39f934f",
+      "data/browse/ch2_tmc_ncn_20221205T1633075527_d_img_d32.png": "e4d1ca9a04a7fe9285a03f6b05d94b831c337e1b04f00d97f75585a9311506c9",
+      "data/raw/catalogue/ch2_tmc_ncn_20221205T1633075527_d_img_d32_metadata.json": "e3c71228040ceedd51208e92ad4dfa1984613594f42334f7a2097c22ed58e211"
+    },
+    "source": "https://chmapbrowse.issdc.gov.in/MapBrowse/",
+    "notes": "Real browse acquired; original XML and science pending. PRADAN metadata says North Pole (59.9 to 89.1 N), incompatible with southern OHRC candidate. No browse correspondence or pixel registration verified. Details: data/raw/catalogue/ch2_tmc_ncn_20221205T1633075527_d_img_d32_metadata.json"
+  },
+  {
+    "sensor": "TMC-2",
+    "product_id": "ch2_tmc_ncn_20221205T1831295337_d_img_d32",
+    "product_type": "Calibrated",
+    "acquisition_time": "2022-12-05T18:31:29.533Z",
+    "orbit": "14613",
+    "footprint": null,
+    "resolution_m": 5.95,
+    "browse_file": null,
+    "science_file": null,
+    "xml_file": null,
+    "checksum": {
+      "data/raw/catalogue/ch2_tmc_ncn_20221205T1831295337_d_img_d32.json": "996b36a9fe91461870720cba6e71fb0415048b3ed4620a7ae8572fd89d538a5c",
+      "data/raw/catalogue/ch2_tmc_ncn_20221205T1831295337_d_img_d32_metadata.json": "4fe1a633f6ce2530d4c0e4540b6281ca7ea6c50d3987bc637f4ae000114bc76c"
+    },
+    "source": "https://chmapbrowse.issdc.gov.in/MapBrowse/",
+    "notes": "PRADAN metadata says North Pole (roughly 60\u201389 N); incompatible with southern OHRC candidate. Original XML, browse, science and formal geometry remain unavailable. Details: data/raw/catalogue/ch2_tmc_ncn_20221205T1831295337_d_img_d32_metadata.json"
+  },
+  {
+    "sensor": "IIRS",
+    "product_id": "ch2_iir_nci_20201230T1639134520_d_img_d32",
+    "product_type": "Calibrated",
+    "acquisition_time": null,
+    "orbit": null,
+    "footprint": null,
+    "resolution_m": null,
+    "browse_file": null,
+    "science_file": null,
+    "xml_file": null,
+    "checksum": {
+      "data/raw/catalogue/ch2_iir_nci_20201230T1639134520_d_img_d32.json": "4735cff0cd8419c872bff095a976da176835b28d2239d3c341f10411e1b39f53"
+    },
+    "source": "https://chmapbrowse.issdc.gov.in/MapBrowse/",
+    "notes": "Real catalogue candidate only. Original XML, documented coordinate conventions, polygon intersection, browse verification and science acquisition are pending. Unknown acquisition/orbit/resolution values remain null until product metadata is inspected. Snapshot: data/raw/catalogue/ch2_iir_nci_20201230T1639134520_d_img_d32.json"
+  },
+  {
+    "sensor": "IIRS",
+    "product_id": "ch2_iir_nci_20201230T2035144761_d_img_d32",
+    "product_type": "Calibrated",
+    "acquisition_time": null,
+    "orbit": null,
+    "footprint": null,
+    "resolution_m": null,
+    "browse_file": null,
+    "science_file": null,
+    "xml_file": null,
+    "checksum": {
+      "data/raw/catalogue/ch2_iir_nci_20201230T2035144761_d_img_d32.json": "8ea5f058e53fd7e35d5907c7859a7c46314deff1e14bda32d99bac715a3579a1"
+    },
+    "source": "https://chmapbrowse.issdc.gov.in/MapBrowse/",
+    "notes": "Real catalogue candidate only. Original XML, documented coordinate conventions, polygon intersection, browse verification and science acquisition are pending. Unknown acquisition/orbit/resolution values remain null until product metadata is inspected. Snapshot: data/raw/catalogue/ch2_iir_nci_20201230T2035144761_d_img_d32.json"
+  },
+  {
+    "sensor": "OHRC",
+    "product_id": "ch2_ohr_nrp_20200827T0030107497_d_img_d18",
+    "product_type": "Raw",
+    "acquisition_time": "2020-08-27T00:30:10.7497Z",
+    "orbit": "4487",
+    "footprint": null,
+    "resolution_m": 0.24,
+    "browse_file": "data/browse/ch2_ohr_nrp_20200827T0030107497_d_img_d18.png",
+    "science_file": "data/raw/ch2_ohr_nrp_20200827T0030107497_d_img_d18/data/raw/20200827/ch2_ohr_nrp_20200827T0030107497_d_img_d18.img",
+    "xml_file": "data/raw/ch2_ohr_nrp_20200827T0030107497_d_img_d18/data/raw/20200827/ch2_ohr_nrp_20200827T0030107497_d_img_d18.xml",
+    "checksum": {
+      "data/labels/ch2_ohr_nrp_20200827T0030107497_d_img_d18.xml": "dc7144a552e85cafc37d3ecead09a39bc1747f48ea4958322413090022f8054c",
+      "data/browse/ch2_ohr_nrp_20200827T0030107497_d_img_d18.png": "87888e58faa6098c1f8e83b4b0b06c8970114c068ecfbee6d14869feca71004f",
+      "data/raw/ch2_ohr_nrp_20200827T0030107497_d_img_d18/data/raw/20200827/ch2_ohr_nrp_20200827T0030107497_d_img_d18.img": "81c0058c4527740d3065d404957c3da378057175816f703cf47a3e0744d8fb05",
+      "data/raw/ch2_ohr_nrp_20200827T0030107497_d_img_d18/data/raw/20200827/ch2_ohr_nrp_20200827T0030107497_d_img_d18.xml": "5f789addfba7f5e8836118b484f4b630952ac76376f345d832eafd9ea6020dbc"
+    },
+    "source": "https://chmapbrowse.issdc.gov.in/server/DisplayLabel",
+    "notes": "User-acquired original XML and browse parsed and hashed. REALPAIR001 browse review identifies repeated terrain across this pair; raw pixel geometry and registration remain unverified. Footprint area uses explicit provisional common-frame assumptions. Science not acquired. | SCIENCE ACQUIRED: full science bytes and publisher XML MD5 verified in REALPAIR001_camera_audit_v2/science_integrity.json. Camera/DEM registration remains unverified."
+  },
+  {
+    "sensor": "TMC-2",
+    "product_id": "ch2_tmc_ndn_20231101T0125121377_d_oth_d18",
+    "product_type": "Derived",
+    "acquisition_time": "2023-11-01T01:25:12.1377Z",
+    "orbit": "18638",
+    "footprint": {"pds4_corners_lon_lat_deg": [[161.423867, -87.618112], [175.384625, -87.924844], [19.039935, -60.288204], [20.228489, -60.264614]], "corner_order": "upper_left, upper_right, lower_right, lower_left", "lunar_radius_m": 1737400, "intersection_audit": "data/derived/REALPAIR005_science_v1/xml_footprint_intersection.json"},
+    "resolution_m": 5.0,
+    "browse_file": "data/browse/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.png",
+    "science_file": "data/raw/ch2_tmc_ndn_20231101T0125121377_d_oth_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.tif",
+    "xml_file": "data/raw/ch2_tmc_ndn_20231101T0125121377_d_oth_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.xml",
+    "checksum": {
+      "data/labels/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.xml": "cf59f05749536fda9dc68b323b6e464ce38c478308cd9f1799b1dd1524dd03ab",
+      "data/browse/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.png": "cfe76c88605652267eae4d53b1e03b98e35572a53f1126a1e484acc4a417d764",
+      "data/raw/ch2_tmc_ndn_20231101T0125121377_d_oth_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.tif": "2648b33e142c47cd08a006702fa1e3360153f87b0458179258349a1b81acd7c5",
+      "data/raw/ch2_tmc_ndn_20231101T0125121377_d_oth_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.xml": "84241c0bdb5dc4ab491e923bae4c34265b0ff9571be0fbf76b1985c00a67e3ee"
+    },
+    "source": "https://chmapbrowse.issdc.gov.in/server/DisplayLabel",
+    "notes": "User-acquired original XML and browse parsed and hashed. REALPAIR001 browse review identifies repeated terrain across this pair; raw pixel geometry and registration remain unverified. Footprint area uses explicit provisional common-frame assumptions. Science not acquired. | SCIENCE ACQUIRED: full science bytes and publisher XML MD5 verified in REALPAIR001_camera_audit_v2/science_integrity.json. Camera/DEM registration remains unverified."
+  },
+  {
+    "sensor": "TMC-2",
+    "product_id": "ch2_tmc_ndn_20231101T0125121377_d_dtm_d18",
+    "product_type": "Derived DTM",
+    "acquisition_time": "2023-11-01T01:25:12.1377Z",
+    "orbit": "18638",
+    "footprint": {"pds4_corners_lon_lat_deg": [[161.423867, -87.618112], [175.384625, -87.924844], [19.039935, -60.288204], [20.228489, -60.264614]], "corner_order": "upper_left, upper_right, lower_right, lower_left", "lunar_radius_m": 1737400},
+    "resolution_m": 10,
+    "browse_file": null,
+    "science_file": "data/raw/ch2_tmc_ndn_20231101T0125121377_d_dtm_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_dtm_d18.tif",
+    "xml_file": "data/raw/ch2_tmc_ndn_20231101T0125121377_d_dtm_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_dtm_d18.xml",
+    "checksum": {
+      "data/raw/ch2_tmc_ndn_20231101T0125121377_d_dtm_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_dtm_d18.tif": "01572844b2a7173aa63ffd7a8a851864e888f771773eb9532ec40d2e2287265c",
+      "data/raw/ch2_tmc_ndn_20231101T0125121377_d_dtm_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_dtm_d18.xml": "87022300643f7c4039a4c966034144c5cb5805964ccbb3c6b26eaf8866aad379"
+    },
+    "source": "https://pradan.issdc.gov.in/ch2/protected/payload.xhtml",
+    "notes": " | SCIENCE ACQUIRED: full science bytes and publisher XML MD5 verified in REALPAIR001_camera_audit_v2/science_integrity.json. Camera/DEM registration remains unverified."
+  },
+  {
+    "sensor": "OHRC",
+    "product_id": "ch2_ohr_nrp_20241117T2033118394_d_img_d18",
+    "product_type": "Raw image",
+    "acquisition_time": "2024-11-17T20:33:11Z",
+    "orbit": "23356",
+    "footprint": {"pds4_corners_lon_lat_deg": [[31.047939, -85.130259], [29.831407, -85.149013], [28.012773, -84.329776], [29.058103, -84.314455]], "corner_order": "upper_left, upper_right, lower_right, lower_left", "lunar_radius_m": 1737400, "intersection_audit": "data/derived/REALPAIR005_science_v1/xml_footprint_intersection.json"},
+    "resolution_m": 0.25,
+    "browse_file": "data/browse/ch2_ohr_nrp_20241117T2033118394_full_browse.png",
+    "science_file": "data/raw/ch2_ohr_nrp_20241117T2033118394_d_img_d18/data/raw/20241117/ch2_ohr_nrp_20241117T2033118394_d_img_d18.img",
+    "xml_file": "data/raw/ch2_ohr_nrp_20241117T2033118394_d_img_d18/data/raw/20241117/ch2_ohr_nrp_20241117T2033118394_d_img_d18.xml",
+    "checksum": {
+      "data/browse/ch2_ohr_nrp_20241117T2033118394_full_browse.png": "77fb8b3797f0f6e07fbf5d505892119c1c9cf7ecd6b81660ce24537c978992b6",
+      "data/raw/ch2_ohr_nrp_20241117T2033118394_d_img_d18/data/raw/20241117/ch2_ohr_nrp_20241117T2033118394_d_img_d18.img": "975a64b823d3129dc64751c0ec82df814479a246a7f0a6a5a578270c04bc1dcd",
+      "data/raw/ch2_ohr_nrp_20241117T2033118394_d_img_d18/data/raw/20241117/ch2_ohr_nrp_20241117T2033118394_d_img_d18.xml": "3a47106478ba17c1f5e5f5e782e9c1db1c48eb23769736eb04ae8a2456e6139c"
+    },
+    "source": "PRADAN OHRC_ShapeFiles.zip; signed-in product metadata dialog",
+    "notes": "REALPAIR005: OHRC science IMG and XML acquired. OHRC/TMC XML footprint intersection 80.356 km\u00b2. Middle-region 5 m relative registration audit in data/derived/REALPAIR005_science_v1; full-strip and 5 m absolute geolocation remain unverified."
+  },
+  {
+    "sensor": "IIRS",
+    "product_id": "ch2_iir_nci_20210622T1850441449_d_img_d32",
+    "product_type": "Calibrated image",
+    "acquisition_time": "2021-06-22T18:50:44.144Z",
+    "orbit": "8141",
+    "footprint": null,
+    "resolution_m": 80,
+    "browse_file": "data/browse/ch2_iir_nci_20210622T1850441449_full_browse.png",
+    "science_file": null,
+    "xml_file": null,
+    "checksum": {
+      "data/browse/ch2_iir_nci_20210622T1850441449_full_browse.png": "3aad0caa599658ff9708b93dfc9e5875571603cc2dd22dc3c2d6251a582dbdfd"
+    },
+    "source": "PRADAN IIRS_ShapeFiles.zip; signed-in product metadata dialog",
+    "notes": "CAND006 catalogue geometry only. Full PDS4 XML and science not downloaded; original full browse image acquired. Publisher science QUB MD5 4b7544b1fc0d75c04cde2f5d0ab00807 is not a local checksum. Browse hint ch2_iir_nci_20210622T1850441449_b_brw_d32.png."
+  }
+]

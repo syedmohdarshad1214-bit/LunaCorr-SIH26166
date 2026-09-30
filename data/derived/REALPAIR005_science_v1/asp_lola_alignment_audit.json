@@ -1,0 +1,47 @@
+{
+  "audit_id": "REALPAIR005_ASP_LOLA_ALIGNMENT_V1",
+  "software": "NASA Ames Stereo Pipeline 3.7.0, build 3d1953916",
+  "reference": "NASA LOLA LDEM_60S_120M, PDS scaled to metres above 1737400 m sphere",
+  "source": "ch2_tmc_ndn_20231101T0125121377_d_dtm_d18, averaged to same 120 m grid",
+  "command_options": [
+    "pc_align",
+    "--initial-transform-from-hillshading",
+    "rigid",
+    "--max-displacement",
+    "5000",
+    "--num-iterations",
+    "50",
+    "lola_reference_roi_120m.tif",
+    "tmc_dtm_roi_120m.tif",
+    "-o",
+    "asp_lola_refined/run"
+  ],
+  "hillshade_sift_final_matches": 67,
+  "translation_source_to_reference_north_east_down_m": [
+    -3781.4883,
+    636.35209,
+    35.040517
+  ],
+  "translation_magnitude_m": 3834.8176,
+  "input_nearest_point_error_m": {
+    "median": 9.3576,
+    "nmad": 7.20835,
+    "rmse": 22.6741
+  },
+  "output_nearest_point_error_m": {
+    "median": 2.40141,
+    "nmad": 2.49716,
+    "rmse": 22.6393
+  },
+  "source_point_count": 48032,
+  "file_sha256": {
+    "lola_reference_roi_120m.tif": "a22a063aaec3520efd0c9fee502d85a79734ce19fb203bf7b57bf1233c8e33b9",
+    "tmc_dtm_roi_120m.tif": "20b4b922d41b3cfe398df0a5a5e02a7df4f40d24d52f5776c15b397d9ac1b14d",
+    "asp_lola_refined_stdout.txt": "25912d237a5b153d79a88192de7149115e50a2fd6712dc0878e2f7223eacaf28",
+    "asp_lola_refined/run-transform.txt": "be86ff8eed24ba42f6668ea14880f4be080733dd3c37e6cfb20f23660e2e6331",
+    "asp_lola_refined/run-reference_hillshade__source_hillshade.match": "261a8c1957ac8e8c34b9e0150540a19e56775109a3962fae4cd6a347ad0e0a82"
+  },
+  "interpretation": "Independent DEM-to-DEM alignment supports kilometre-scale TMC DTM georeferencing offset; not a camera/ortho registration or absolute control point test.",
+  "applied_to_science_images": false,
+  "registration_decision": "ABSTAIN"
+}

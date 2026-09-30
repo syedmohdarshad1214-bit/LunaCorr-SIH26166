@@ -1,0 +1,96 @@
+{
+  "source_product_id": "SYNTHETIC_SOURCE",
+  "target_product_id": "SYNTHETIC_TARGET",
+  "source_working_grid": "SYNTHETIC source native 640x640 grid",
+  "target_working_grid": "SYNTHETIC target native 640x640 grid",
+  "source_working_to_native": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_working_to_native": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_to_target_prior": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      -5
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "target_working_resolution_m": 5,
+  "normalization_percentiles": [
+    2,
+    98
+  ],
+  "search_radius_target_working_px": 24,
+  "reverse_search_radius_source_working_px": 24,
+  "ratio_filter": 0.78,
+  "matcher": "SIFT",
+  "max_features": 2500,
+  "robust": {
+    "models": [
+      "translation",
+      "similarity",
+      "affine"
+    ],
+    "residual_threshold_px": 2,
+    "min_inliers": 12,
+    "min_inlier_ratio": 0.55,
+    "holdout_fraction": 0.25,
+    "min_holdout_inliers": 4,
+    "min_holdout_ratio": 0.55,
+    "max_holdout_rmse_px": 1.2,
+    "seed": 7,
+    "max_trials": 1000
+  },
+  "coverage_grid_cells": 4,
+  "min_grid_coverage": 0.5,
+  "min_hull_coverage": 0.35,
+  "require_cycle": true,
+  "cycle_enabled": true,
+  "cycle_threshold_source_working_px": 1.5,
+  "shadow_mask": true,
+  "dark_threshold": 12,
+  "max_dark_fraction": 0.65,
+  "representation": "gradient",
+  "demo_case": "success",
+  "input_manifest": "data/derived/demo_6903539d4961/manifest.json",
+  "experiment_id": "EXP008_SOURCE_TARGET"
+}

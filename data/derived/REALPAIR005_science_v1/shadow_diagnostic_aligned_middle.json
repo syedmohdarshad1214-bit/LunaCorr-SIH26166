@@ -1,0 +1,34 @@
+{
+  "audit_id": "REALPAIR005_MIDDLE_SHADOW_DIAGNOSTIC_V1",
+  "threshold": "normalized uint8 DN <25",
+  "edge_buffer": "5 px dilation",
+  "role": "post-hoc diagnostic, not a registration gate",
+  "ohrc_dark_fraction_of_valid": 0.4498815279470779,
+  "ohrc_buffer_fraction_of_valid": 0.5585690219549944,
+  "algorithms": {
+    "SIFT": {
+      "inlier": {
+        "count": 878,
+        "dark_point_fraction": 0.06719817767653759,
+        "within_5px_dark_fraction": 0.24829157175398633
+      },
+      "outlier": {
+        "count": 22,
+        "dark_point_fraction": 0.09090909090909091,
+        "within_5px_dark_fraction": 0.13636363636363635
+      }
+    },
+    "AKAZE": {
+      "inlier": {
+        "count": 410,
+        "dark_point_fraction": 0.15365853658536585,
+        "within_5px_dark_fraction": 0.35853658536585364
+      },
+      "outlier": {
+        "count": 16,
+        "dark_point_fraction": 0.5,
+        "within_5px_dark_fraction": 0.625
+      }
+    }
+  }
+}

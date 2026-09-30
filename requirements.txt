@@ -1,0 +1,18 @@
+# Recommended core packages; scaffold only, not an installed or validated lock.
+# Pin compatible versions after inspecting products and validating the environment.
+numpy
+scipy
+opencv-python-headless
+scikit-image
+pds4_tools
+rasterio
+shapely
+pyproj
+fastapi
+uvicorn
+jsonschema
+defusedxml
+# SQLite is supplied by Python. Resolve native GDAL with Rasterio/environment setup.
+# SPICE/ISIS/ASP, RIFT2 and LightGlue are optional, separately validated additions.
+
+pyshp>=2.3,<4

@@ -1,0 +1,113 @@
+{
+  "evidence_type": "SYNTHETIC",
+  "inputs": {
+    "roi_bundle": {
+      "path": "data/derived/demo_9974c4803eb1/roi.npz",
+      "sha256": "fb757675e9dee06ad2829baa32267c60e8c2ab682f5b9eccbafeec7365211c15"
+    },
+    "geometry_report": {
+      "path": "data/derived/demo_9974c4803eb1/geometry.json",
+      "sha256": "ba9216676c19ffdb76f70800cd4119a1607addfd7486cf519bf5a72cd965020a"
+    },
+    "pixel_geometry": {
+      "path": "data/derived/demo_9974c4803eb1/pixel_geometry.json",
+      "sha256": "ebc89fb79efe11871164ac56d6068667fc6ca193290a354c0bd95a23fc5ea550"
+    },
+    "source_label": {
+      "path": "data/derived/demo_9974c4803eb1/source.xml",
+      "sha256": "b127ef3c0f34ff2fc7591b7276fbb560fc6eb62adc955868932bfd97463eb923"
+    },
+    "target_label": {
+      "path": "data/derived/demo_9974c4803eb1/target.xml",
+      "sha256": "384a1bc399192e0af4fcb7e074942619bf5bf2bbcd43e97aa6eed66eba5a6984"
+    },
+    "coordinate_context": {
+      "path": "data/derived/demo_9974c4803eb1/context.json",
+      "sha256": "a9206cbd1677b3996b05cefa9c43c5f66a275f754d4335d2c90497bc5b896be2"
+    },
+    "source_browse": {
+      "path": "data/derived/demo_9974c4803eb1/source.png",
+      "sha256": "b4a079967fff180715c5011048487a6f5339643ee37f98ef7e45ad159ebd3b6c"
+    },
+    "target_browse": {
+      "path": "data/derived/demo_9974c4803eb1/target.png",
+      "sha256": "41ffe64e9b2130aaf18c6f49b8d6d21e0d6d6ab97135722d7b16e95209302078"
+    }
+  },
+  "synthetic_generator": {
+    "name": "src/ingest/demo_pack.py",
+    "seed": 19,
+    "known_source_to_target": [
+      [
+        1.0,
+        0.0,
+        9.0
+      ],
+      [
+        0.0,
+        1.0,
+        -6.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "note": "Same-scale generated crater texture; does not establish cross-sensor capability or resolve the 320x gap."
+  },
+  "input_manifest_sha256": "c9950e26e142a3a9238670970edc939744bbd6e87ca1a1002b69250220332969",
+  "code_checksums": {
+    "src/__init__.py": "ea31036f5a5c831441477348cafa04e8ae4e69ce198aef5684dd0a89085f92cb",
+    "src/evaluation/__init__.py": "d2079a2716af700620e8ccf0d5d1fa0d1726f88d942862369d9d24019446d8a7",
+    "src/evaluation/experiment.py": "f1ad117222508311612b8074417a9ac99098b2ecb808e42c5c55a79cda211d1a",
+    "src/evaluation/metrics.py": "00ae8633cd74484d54dfac69e434307e1f3d0270fb28c546aa4c2ebbc3c006d3",
+    "src/geometry/__init__.py": "b0462efaf07fc4cabd18bb26fefa1f5dd59e3a88ab949adac8d4394d481fa019",
+    "src/geometry/footprints.py": "c92ba3b2ad89eafb5d895aeb2f4c1118458d3ae1233823746551e28ce06c15ea",
+    "src/ingest/__init__.py": "6c2f6b9062fe2fc6b4222120861703c7c624b9e744160171ad423e7160403d30",
+    "src/ingest/demo_pack.py": "b475b9441de0fe10136e540b2a2aee4aea4597c5431794aa40b4b51d72728b25",
+    "src/ingest/manifest.py": "6c2a34a090e59e45b7c8b3580a84d7a3d1def1cb7b1f3e463b2495eb8b8faa66",
+    "src/ingest/raster.py": "43041c3dc3f315946f1ca8e29952e6c9ab06adddaa7b835f71f7fcbbfdb07ca4",
+    "src/matching/__init__.py": "400685ce3eed7a870acc113a716bbec6a9678a0f6238d3f2c70dfd7c8d557030",
+    "src/matching/baseline.py": "afd012f2659085a4567ca2614a67245cb4fa97a18a58907cf1843413eddacbb7",
+    "src/preprocessing/__init__.py": "d5c53ced0d9d65470799faf004d50f87070e6efead67ff22cf5e1e2ca5ce091c",
+    "src/preprocessing/optical.py": "0bbc602029bcd6876bb2b300edaa871319813afc30420cc135047e791c76bd5a",
+    "src/preprocessing/structural.py": "ea3ba0380add990912ff9e2fa2734da2dafb8e528c98527f92888b81ca5d779a",
+    "src/registration/__init__.py": "79f77b61374b2c5108a55e51bdd4112796d4a7f82db8c8a68deaa490d95c1c4a",
+    "src/registration/baseline.py": "feecd282c0e5a9dfaff6684f694f448e8217f2c1bcc505b108260bbb1b2ff1f1",
+    "src/registration/warp.py": "8057302ba146f7e4766622ec7cb6baf2361564cda4b808031736a87ef6b8b121",
+    "src/verification/__init__.py": "e926d4953273c8705186b508e6d0dc8156bab039b9bd41e5e94fde793256ad4e",
+    "src/verification/cycle.py": "f5a41e3aee80dc62d570f245078330c3305ac95d987e977d57ce321b8de44092",
+    "src/verification/robust.py": "e6cc415f4265d577234094740a6444c059abe7c6a1dfa731c9907514dec0ea7c",
+    "run_demo.py": "ea75fd368b0b9734609cfab242cc43da2c21a534cc7a38574ffd4e51f90be42d"
+  },
+  "experiment_id": "EXP007_SOURCE_TARGET",
+  "created_utc": "2026-09-25T16:26:55.170342+00:00",
+  "artifact_checksums": {
+    "config.json": "c045f88c97e45029e0e38ecfff80936b47533d004c8aca19f84240f335c4f3f3",
+    "inliers.csv": "fed8f9134953bf7773b42ee3a0b74a1671c0b39cb79e7906682238ffeca0f152",
+    "inputs/coordinate_context.json": "a9206cbd1677b3996b05cefa9c43c5f66a275f754d4335d2c90497bc5b896be2",
+    "inputs/geometry_report.json": "ba9216676c19ffdb76f70800cd4119a1607addfd7486cf519bf5a72cd965020a",
+    "inputs/input_manifest.json": "c9950e26e142a3a9238670970edc939744bbd6e87ca1a1002b69250220332969",
+    "inputs/pixel_geometry.json": "ebc89fb79efe11871164ac56d6068667fc6ca193290a354c0bd95a23fc5ea550",
+    "inputs/roi_bundle.npz": "fb757675e9dee06ad2829baa32267c60e8c2ab682f5b9eccbafeec7365211c15",
+    "inputs/source_browse.png": "b4a079967fff180715c5011048487a6f5339643ee37f98ef7e45ad159ebd3b6c",
+    "inputs/source_label.xml": "b127ef3c0f34ff2fc7591b7276fbb560fc6eb62adc955868932bfd97463eb923",
+    "inputs/target_browse.png": "41ffe64e9b2130aaf18c6f49b8d6d21e0d6d6ab97135722d7b16e95209302078",
+    "inputs/target_label.xml": "384a1bc399192e0af4fcb7e074942619bf5bf2bbcd43e97aa6eed66eba5a6984",
+    "matches.csv": "0bf367982c73654540278b077323f79193587325dc77e38440375475c362ce31",
+    "metrics.json": "064c55a1d226a29855e874a3ac71525af99d6a5b4172bfea804853a7737c3c46",
+    "overlays/diagnostic_warp.png": "0bc429340d631d5bcb4ee6aefffef7e80b222a440536fd73af303d733437b64e",
+    "overlays/robust_correspondences.png": "6904144e3714b9aba8c5d500def4f67cf475dd708538a0451071dd7a320fc63d",
+    "overlays/target_warp_blend.png": "3daca04b2fe5feb31121faf7f51e11dd180b517288f9136d6c4955ea0f72de4b",
+    "overlays/warp_valid_support.png": "35c0c248700e0171e44bc1149924fbf85d33d049124fa316c3e4d2a8e5d4ae98",
+    "previews/source_dark_mask.png": "50460cb959605433b1ba831e77c42c1a292534f41fc6f8e0064cb36d4cb87d68",
+    "previews/source_normalized.png": "7e34da3244d792ea47089dea52fedd33a5f5d3052b0f55d733914efeac98b96e",
+    "previews/source_structural.png": "1f5ce171083ece35d6a6ebfce0569e34a229c61f27ae21716d1a86b6fe93d85c",
+    "previews/target_dark_mask.png": "9866fcf702767854a2bf0513df422eeb34b3021701604e90cf4ad35b6263a1d5",
+    "previews/target_normalized.png": "4fd1efd0016955c0170aa897fdc820c85025518d47d7a768cf7c7b3d6ed6b1d1",
+    "previews/target_structural.png": "38e672a6dae5c6cef0a3d5087155d389f0e137379200426937fc8555fc9abdb0",
+    "report.html": "c3c5fd51899214308f9fa4f429753bf8d996ccf6d283ea637663daa804d7ec3e",
+    "transform.json": "ccd5516993519ee64c32ea38428449ec6b9f179e6d4aaf9c91e1a493ee4e2908"
+  }
+}

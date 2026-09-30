@@ -1,0 +1,2 @@
+match_id,ohrc_projected_x_5m,ohrc_projected_y_5m,tmc_ortho_x_5m,tmc_ortho_y_5m,descriptor_distance,split,forward_residual_tmc_5m_px,inlier
+0,139.62689208984375,498.017578125,299.7572021484375,635.9058837890625,68.0,training,,0

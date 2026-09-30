@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>LunaCorr · Moon Explorer</title>
+  <script>if (location.protocol === "file:") location.replace("http://127.0.0.1:8000/");</script>
+  <link rel="stylesheet" href="/static/explorer.css?v=21">
+  <link rel="stylesheet" href="/static/evidence-panel.css?v=15">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <a class="brand" href="/"><span class="brand-mark">◌</span><span>LunaCorr<small>MOON EXPLORER</small></span></a>
+      <span class="top-status"><i></i> OFFLINE CATALOGUE</span>
+    </header>
+    <main class="layout">
+      <section class="toolbar" aria-label="Globe controls">
+        <div id="sensorButtons" class="sensor-list" aria-label="Camera layers"></div>
+        <div class="view-buttons">
+          <button id="tripleToggle" type="button" aria-pressed="false" title="Catalogue triple overlaps, plus a clearly labelled audited OHRC/TMC-2 comparison pair">◎ &nbsp; Triple overlap</button>
+        </div>
+        <div class="search-box">
+          <label class="sr-only" for="productSearch">Search product ID</label>
+          <input id="productSearch" class="product-search" type="search" placeholder="Search product ID…" autocomplete="off">
+          <div id="productList" class="product-list" aria-label="Matching catalogue products" hidden></div>
+          <p id="listSummary" class="list-summary" aria-live="polite"></p>
+        </div>
+      </section>
+      <div class="workspace" id="workspace">
+      <section class="globe-panel" aria-label="Interactive Moon globe">
+        <div class="globe-wrap" id="globeWrap">
+          <canvas id="moon" aria-hidden="true"></canvas>
+          <canvas id="footprints" role="img" aria-label="Rotatable lunar globe with selectable OHRC, TMC-2, and IIRS catalogue footprints"></canvas>
+          <button id="auditedTarget" class="audited-target" type="button" aria-label="Open audited OHRC and TMC-2 overlap" hidden></button>
+          <button id="rejectedTarget" class="audited-target" type="button" aria-label="Open rejected OHRC and TMC-2 overlap" hidden></button>
+          <div id="globeImageNote" class="globe-image-note" hidden></div>
+          <div id="hoverTag" class="hover-tag" hidden></div>
+          <div class="globe-label top">MOON <span>·</span> CATALOGUE FOOTPRINTS</div>
+          <div id="selection" class="selection" hidden></div>
+          <div class="globe-label bottom"><span id="coordinates">10.0° E · 25.0° S</span><span id="globeHint">DRAG TO ROTATE · SCROLL TO ZOOM</span></div>
+        </div>
+        <div class="globe-controls">
+          <button id="verifyOverlap" class="verify-overlap" type="button" hidden>◈ &nbsp; Scientific verification</button>
+          <button id="spin" type="button">Ⅱ &nbsp; Pause rotation</button>
+          <button id="zoomOut" type="button" hidden>− &nbsp; Zoom out</button>
+          <button id="reset" type="button">↺ &nbsp; Reset view</button>
+          <span>Footprint ≠ verified registration · <a href="/science-evidence/ALIGNED_MIDDLE_SCIENTIFIC_VERIFICATION.md" target="_blank" rel="noopener">Scientific audit ↗</a></span>
+        </div>
+      </section>
+      <aside id="evidencePanel" class="evidence-panel" aria-label="Scientific verification evidence" hidden>
+        <div class="evidence-head"><div><small>REAL DATA · FROZEN AUDIT</small><h2>Scientific verification</h2></div><button id="closeEvidence" type="button" aria-label="Close evidence">×</button></div>
+        <div id="evidenceContent" class="evidence-content"></div>
+      </aside>
+      </div>
+    </main>
+  </div>
+  <div id="error" role="alert" hidden></div>
+  <script src="/static/explorer.js?v=93"></script>
+</body>
+</html>

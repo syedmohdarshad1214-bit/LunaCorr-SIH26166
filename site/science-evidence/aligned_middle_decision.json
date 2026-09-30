@@ -1,0 +1,38 @@
+{
+  "audit_id": "REALPAIR005_OHRC_TMC_ALIGNED_MIDDLE_VERIFICATION_V1",
+  "data_type": "real Chandrayaan-2 science data",
+  "products": {
+    "ohrc": "ch2_ohr_nrp_20241117T2033118394_d_img_d18",
+    "tmc_ortho": "ch2_tmc_ndn_20231101T0125121377_d_oth_d18",
+    "tmc_dtm": "ch2_tmc_ndn_20231101T0125121377_d_dtm_d18"
+  },
+  "registration_decision": "REGISTERED",
+  "registration_scope": "Relative local OHRC-to-TMC-2 correspondence for OHRC native samples 1000-11000 and lines 42000-58000 where camera/DTM support exists, reported on native TMC-2 5 m ortho pixels",
+  "full_strip_decision": "ABSTAIN",
+  "absolute_ground_accuracy_5m_decision": "ABSTAIN",
+  "reasons_for_limited_scope": [
+    "Earlier frozen full-strip affine transfer failed outside the local region.",
+    "The independently corroborated navigation displacement was resolved at LOLA 120 m scale, not surveyed at TMC 5 m scale.",
+    "The local image affine absorbs residual camera/terrain error and cannot certify absolute ground accuracy."
+  ],
+  "fixed_gate_source": "aligned_candidate_config_v1.json",
+  "geometry_evidence": [
+    "xml_footprint_intersection.json",
+    "asp_lola_alignment_audit.json",
+    "tmc_navigation_affine.json",
+    "ohrc_vs_lola_independent_screen.json",
+    "aligned_middle_prefit_support.json",
+    "science_roi_aligned_middle/projection.json"
+  ],
+  "image_evidence": [
+    "science_roi_aligned_middle_test/SIFT/metrics.json",
+    "science_roi_aligned_middle_test/AKAZE/metrics.json",
+    "negative_controls_aligned_middle/metrics.json"
+  ],
+  "accepted_controls": {
+    "SIFT": 878,
+    "AKAZE": 410,
+    "note": "Method counts overlap and must not be summed as distinct physical ground-control points."
+  },
+  "supersedes_only": "The earlier pending-ground-control status of the middle local test after a separate geometry review; all original test artifacts remain unchanged."
+}

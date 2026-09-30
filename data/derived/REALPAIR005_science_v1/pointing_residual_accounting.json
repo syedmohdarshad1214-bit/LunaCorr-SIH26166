@@ -1,0 +1,129 @@
+{
+  "audit_id": "REALPAIR005_IMAGE_POINTING_RESIDUAL_ACCOUNTING_V1",
+  "tmc_navigation": "tmc_navigation_affine.json",
+  "definition": "At ROI centre, image-fitted TMC nominal ground coordinate is mapped through independent ASP TMC-to-LOLA affine, then compared with OHRC direct-SPICE projected ground coordinate.",
+  "regions": [
+    {
+      "roi": "first",
+      "algorithm": "SIFT",
+      "native_ohrc_line_range": [
+        10000,
+        40000
+      ],
+      "source_spice_map_xy_m": [
+        77262.5,
+        132082.5
+      ],
+      "matched_tmc_nominal_map_xy_m": [
+        76103.24669816255,
+        131504.1558932609
+      ],
+      "matched_tmc_lola_aligned_map_xy_m": [
+        74792.0335997058,
+        127905.16627888201
+      ],
+      "tmc_nominal_minus_spice_xy_m": [
+        -1159.2533018374525,
+        -578.3441067390959
+      ],
+      "aligned_tmc_minus_spice_xy_m": [
+        -2470.466400294201,
+        -4177.33372111799
+      ],
+      "aligned_tmc_minus_spice_magnitude_m": 4853.176408556777
+    },
+    {
+      "roi": "first",
+      "algorithm": "AKAZE",
+      "native_ohrc_line_range": [
+        10000,
+        40000
+      ],
+      "source_spice_map_xy_m": [
+        77262.5,
+        132082.5
+      ],
+      "matched_tmc_nominal_map_xy_m": [
+        76105.05702133053,
+        131496.4745805207
+      ],
+      "matched_tmc_lola_aligned_map_xy_m": [
+        74793.84404912216,
+        127897.48574767302
+      ],
+      "tmc_nominal_minus_spice_xy_m": [
+        -1157.4429786694673,
+        -586.0254194792942
+      ],
+      "aligned_tmc_minus_spice_xy_m": [
+        -2468.6559508778446,
+        -4185.014252326975
+      ],
+      "aligned_tmc_minus_spice_magnitude_m": 4858.868849432398
+    },
+    {
+      "roi": "second",
+      "algorithm": "SIFT",
+      "native_ohrc_line_range": [
+        60000,
+        90000
+      ],
+      "source_spice_map_xy_m": [
+        81192.5,
+        144220.0
+      ],
+      "matched_tmc_nominal_map_xy_m": [
+        80050.01043882269,
+        143620.99697708947
+      ],
+      "matched_tmc_lola_aligned_map_xy_m": [
+        78738.01672092541,
+        140021.1012600643
+      ],
+      "tmc_nominal_minus_spice_xy_m": [
+        -1142.48956117731,
+        -599.0030229105323
+      ],
+      "aligned_tmc_minus_spice_xy_m": [
+        -2454.483279074586,
+        -4198.898739935714
+      ],
+      "aligned_tmc_minus_spice_magnitude_m": 4863.665160708584
+    },
+    {
+      "roi": "second",
+      "algorithm": "AKAZE",
+      "native_ohrc_line_range": [
+        60000,
+        90000
+      ],
+      "source_spice_map_xy_m": [
+        81192.5,
+        144220.0
+      ],
+      "matched_tmc_nominal_map_xy_m": [
+        80046.97993695764,
+        143629.42519941513
+      ],
+      "matched_tmc_lola_aligned_map_xy_m": [
+        78734.98616978919,
+        140029.52857471473
+      ],
+      "tmc_nominal_minus_spice_xy_m": [
+        -1145.5200630423642,
+        -590.5748005848727
+      ],
+      "aligned_tmc_minus_spice_xy_m": [
+        -2457.51383021081,
+        -4190.471425285272
+      ],
+      "aligned_tmc_minus_spice_magnitude_m": 4857.923938454552
+    }
+  ],
+  "status": "DIAGNOSTIC_ONLY_NOT_CAMERA_CORRECTION",
+  "limits": [
+    "Image affine models themselves come from OHRC/TMC matches, so these residuals cannot independently validate OHRC pointing.",
+    "ASP TMC navigation uses 120 m LOLA and is not 5 m absolute ground control.",
+    "Do not directly apply these vectors as a camera correction."
+  ]
+}

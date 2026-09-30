@@ -1,0 +1,67 @@
+{
+  "model": "translation",
+  "matrix": [
+    [
+      1.0,
+      0.0,
+      8.999954223632812
+    ],
+    [
+      0.0,
+      1.0,
+      -6.000364303588867
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "direction": "source_working_to_target_working",
+  "accepted": true,
+  "source_working_to_native": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_working_to_native": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "model_attempts": [
+    {
+      "model": "translation",
+      "accepted": true,
+      "fit_inliers": 1424,
+      "fit_candidates": 1430,
+      "heldout_inliers": 476,
+      "heldout_candidates": 477,
+      "heldout_inlier_rmse_target_working_px": 0.06437808700963456
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "audit_id": "REALPAIR005_FULLSTRIP_TILE_060645_070751_SIFT_V1",
+  "descriptor": "SIFT",
+  "candidates": 476,
+  "training_candidates": 419,
+  "training_inliers": 330,
+  "training_inlier_ratio": 0.7875894988066826,
+  "heldout_candidates": 57,
+  "heldout_inliers": 54,
+  "heldout_inlier_ratio": 0.9473684210526315,
+  "all_inliers": 384,
+  "rmse_tmc_5m_px": 1.3178194761276245,
+  "median_residual_tmc_5m_px": 0.950000524520874,
+  "p90_residual_tmc_5m_px": 2.0063624382019043,
+  "occupied_cells_3x6": 9,
+  "hull_fraction": 0.19981217368743093,
+  "heldout_cycle_median_5m_px": 1.333541750907898,
+  "fixed_support_gates": {
+    "train_inliers": 6,
+    "train_ratio": 0.4,
+    "heldout_inliers": 3,
+    "heldout_ratio": 0.4,
+    "occupied_cells": 6,
+    "hull_fraction": 0.15,
+    "cycle_px": 3.0
+  },
+  "image_gate_passed": true,
+  "registration_decision": "LOCAL_IMAGE_GATE_PASS_ONLY",
+  "runtime_seconds": 0.23568037500081118
+}

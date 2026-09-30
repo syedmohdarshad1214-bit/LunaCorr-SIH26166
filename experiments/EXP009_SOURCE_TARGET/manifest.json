@@ -1,0 +1,103 @@
+{
+  "evidence_type": "SYNTHETIC",
+  "inputs": {
+    "roi_bundle": {
+      "path": "data/derived/demo_e347aaac3f70/roi.npz",
+      "sha256": "fb757675e9dee06ad2829baa32267c60e8c2ab682f5b9eccbafeec7365211c15"
+    },
+    "geometry_report": {
+      "path": "data/derived/demo_e347aaac3f70/geometry.json",
+      "sha256": "1192425a209fa636246a784df8c9b08c2c84d48193f93a484f3ea6e827b8796f"
+    },
+    "pixel_geometry": {
+      "path": "data/derived/demo_e347aaac3f70/pixel_geometry.json",
+      "sha256": "7a9c657bc19149e0a3baa45837564c5f5740d1fde89eca639d56b8ce936ada35"
+    },
+    "source_label": {
+      "path": "data/derived/demo_e347aaac3f70/source.xml",
+      "sha256": "b127ef3c0f34ff2fc7591b7276fbb560fc6eb62adc955868932bfd97463eb923"
+    },
+    "target_label": {
+      "path": "data/derived/demo_e347aaac3f70/target.xml",
+      "sha256": "5496ef00a4e836183e4c85eb10cb5c20de13ad343980556c74c23272e79e8975"
+    },
+    "coordinate_context": {
+      "path": "data/derived/demo_e347aaac3f70/context.json",
+      "sha256": "a9206cbd1677b3996b05cefa9c43c5f66a275f754d4335d2c90497bc5b896be2"
+    },
+    "source_browse": {
+      "path": "data/derived/demo_e347aaac3f70/source.png",
+      "sha256": "b4a079967fff180715c5011048487a6f5339643ee37f98ef7e45ad159ebd3b6c"
+    },
+    "target_browse": {
+      "path": "data/derived/demo_e347aaac3f70/target.png",
+      "sha256": "41ffe64e9b2130aaf18c6f49b8d6d21e0d6d6ab97135722d7b16e95209302078"
+    }
+  },
+  "synthetic_generator": {
+    "name": "src/ingest/demo_pack.py",
+    "seed": 19,
+    "known_source_to_target": [
+      [
+        1.0,
+        0.0,
+        9.0
+      ],
+      [
+        0.0,
+        1.0,
+        -6.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "note": "Same-scale generated crater texture; does not establish cross-sensor capability or resolve the 320x gap."
+  },
+  "input_manifest_sha256": "22faa1b50afd31774358da6d771dc21500fd0c41652543013baab459fde9caac",
+  "code_checksums": {
+    "src/__init__.py": "ea31036f5a5c831441477348cafa04e8ae4e69ce198aef5684dd0a89085f92cb",
+    "src/evaluation/__init__.py": "d2079a2716af700620e8ccf0d5d1fa0d1726f88d942862369d9d24019446d8a7",
+    "src/evaluation/experiment.py": "f1ad117222508311612b8074417a9ac99098b2ecb808e42c5c55a79cda211d1a",
+    "src/evaluation/metrics.py": "00ae8633cd74484d54dfac69e434307e1f3d0270fb28c546aa4c2ebbc3c006d3",
+    "src/geometry/__init__.py": "b0462efaf07fc4cabd18bb26fefa1f5dd59e3a88ab949adac8d4394d481fa019",
+    "src/geometry/footprints.py": "c92ba3b2ad89eafb5d895aeb2f4c1118458d3ae1233823746551e28ce06c15ea",
+    "src/ingest/__init__.py": "6c2f6b9062fe2fc6b4222120861703c7c624b9e744160171ad423e7160403d30",
+    "src/ingest/demo_pack.py": "b475b9441de0fe10136e540b2a2aee4aea4597c5431794aa40b4b51d72728b25",
+    "src/ingest/manifest.py": "6c2a34a090e59e45b7c8b3580a84d7a3d1def1cb7b1f3e463b2495eb8b8faa66",
+    "src/ingest/raster.py": "43041c3dc3f315946f1ca8e29952e6c9ab06adddaa7b835f71f7fcbbfdb07ca4",
+    "src/matching/__init__.py": "400685ce3eed7a870acc113a716bbec6a9678a0f6238d3f2c70dfd7c8d557030",
+    "src/matching/baseline.py": "afd012f2659085a4567ca2614a67245cb4fa97a18a58907cf1843413eddacbb7",
+    "src/preprocessing/__init__.py": "d5c53ced0d9d65470799faf004d50f87070e6efead67ff22cf5e1e2ca5ce091c",
+    "src/preprocessing/optical.py": "0bbc602029bcd6876bb2b300edaa871319813afc30420cc135047e791c76bd5a",
+    "src/preprocessing/structural.py": "ea3ba0380add990912ff9e2fa2734da2dafb8e528c98527f92888b81ca5d779a",
+    "src/registration/__init__.py": "79f77b61374b2c5108a55e51bdd4112796d4a7f82db8c8a68deaa490d95c1c4a",
+    "src/registration/baseline.py": "feecd282c0e5a9dfaff6684f694f448e8217f2c1bcc505b108260bbb1b2ff1f1",
+    "src/registration/warp.py": "8057302ba146f7e4766622ec7cb6baf2361564cda4b808031736a87ef6b8b121",
+    "src/verification/__init__.py": "e926d4953273c8705186b508e6d0dc8156bab039b9bd41e5e94fde793256ad4e",
+    "src/verification/cycle.py": "f5a41e3aee80dc62d570f245078330c3305ac95d987e977d57ce321b8de44092",
+    "src/verification/robust.py": "e6cc415f4265d577234094740a6444c059abe7c6a1dfa731c9907514dec0ea7c",
+    "run_demo.py": "ea75fd368b0b9734609cfab242cc43da2c21a534cc7a38574ffd4e51f90be42d"
+  },
+  "experiment_id": "EXP009_SOURCE_TARGET",
+  "created_utc": "2026-09-25T16:26:56.892414+00:00",
+  "artifact_checksums": {
+    "config.json": "2e4cf6fd5969c8681b3a1e9c282bad62eb10feaefa0d5f2ae76323e0ddb1fdc9",
+    "inliers.csv": "2f507b80e9c387b0f1524506633ae53c258f2e453bf5818c7ea18f6a786f77fc",
+    "inputs/coordinate_context.json": "a9206cbd1677b3996b05cefa9c43c5f66a275f754d4335d2c90497bc5b896be2",
+    "inputs/geometry_report.json": "1192425a209fa636246a784df8c9b08c2c84d48193f93a484f3ea6e827b8796f",
+    "inputs/input_manifest.json": "22faa1b50afd31774358da6d771dc21500fd0c41652543013baab459fde9caac",
+    "inputs/pixel_geometry.json": "7a9c657bc19149e0a3baa45837564c5f5740d1fde89eca639d56b8ce936ada35",
+    "inputs/roi_bundle.npz": "fb757675e9dee06ad2829baa32267c60e8c2ab682f5b9eccbafeec7365211c15",
+    "inputs/source_browse.png": "b4a079967fff180715c5011048487a6f5339643ee37f98ef7e45ad159ebd3b6c",
+    "inputs/source_label.xml": "b127ef3c0f34ff2fc7591b7276fbb560fc6eb62adc955868932bfd97463eb923",
+    "inputs/target_browse.png": "41ffe64e9b2130aaf18c6f49b8d6d21e0d6d6ab97135722d7b16e95209302078",
+    "inputs/target_label.xml": "5496ef00a4e836183e4c85eb10cb5c20de13ad343980556c74c23272e79e8975",
+    "matches.csv": "2f507b80e9c387b0f1524506633ae53c258f2e453bf5818c7ea18f6a786f77fc",
+    "metrics.json": "d1c6454d99b1fb6056eeb1043a4720e4d64b7ef605b30fbe89cf3f5d0eb64dd1",
+    "report.html": "27808b384034ad17cfd32fe78ffa4b6efd2470baf8bd5d36aa9e61cd0923dcae",
+    "transform.json": "bdc0cbd35a256df4d5443e0896b0e47bd00b52992b4f84ab9948ab4315f7269b"
+  }
+}

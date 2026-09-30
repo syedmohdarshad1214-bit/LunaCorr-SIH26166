@@ -1,0 +1,292 @@
+{
+  "scope": "One exact original-shapefile triplet intersection at a validated raster cell in each display cluster",
+  "limits": "Only representative product triplets are measured. This is catalogue geometry, not browse or science-pixel registration. Display clusters are not unique physical sites.",
+  "representative_count": 19,
+  "representatives": [
+    {
+      "cluster_id": "GLOBAL_DISPLAY_019",
+      "center_lon_lat": [
+        202.807617,
+        -89.604492
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20250302T0542319797_d_img_d18",
+        "ch2_tmc_ndn_20231223T0858191875_d_oth_d18",
+        "ch2_iir_nci_20230208T1508451829_d_img_n18"
+      ],
+      "intersection_area_km2": 24.491097,
+      "projection": "lunar LAEA centred at 202.807617\u00b0E, -89.604492\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_015",
+      "center_lon_lat": [
+        29.663086,
+        -85.12207
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20241117T2033118394_d_img_d18",
+        "ch2_tmc_ndn_20231101T0125121377_d_oth_d18",
+        "ch2_iir_nci_20210622T1850441449_d_img_d32"
+      ],
+      "intersection_area_km2": 80.665457,
+      "projection": "lunar LAEA centred at 29.663086\u00b0E, -85.12207\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_012",
+      "center_lon_lat": [
+        35.024414,
+        -84.770508
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20260102T1819015920_d_img_d18",
+        "ch2_tmc_ndn_20231031T2129157767_d_oth_d18",
+        "ch2_iir_nci_20230130T1501406990_d_img_d32"
+      ],
+      "intersection_area_km2": 41.369837,
+      "projection": "lunar LAEA centred at 35.024414\u00b0E, -84.770508\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_018",
+      "center_lon_lat": [
+        290.961914,
+        -88.637695
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20230314T2248163763_d_img_d32",
+        "ch2_tmc_ndn_20231205T1906512971_d_oth_d18",
+        "ch2_iir_nci_20230124T1952513044_d_img_n18"
+      ],
+      "intersection_area_km2": 25.092991,
+      "projection": "lunar LAEA centred at 290.961914\u00b0E, -88.637695\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_017",
+      "center_lon_lat": [
+        333.237305,
+        -86.52832
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20241026T0831193183_d_img_d18",
+        "ch2_tmc_ndn_20231203T0019079527_d_oth_d18",
+        "ch2_iir_nci_20210126T1532547411_d_img_d32"
+      ],
+      "intersection_area_km2": 44.286709,
+      "projection": "lunar LAEA centred at 333.237305\u00b0E, -86.52832\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_013",
+      "center_lon_lat": [
+        311.176758,
+        -84.506836
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20211222T2023166276_d_img_d32",
+        "ch2_tmc_ndn_20231230T2231117455_d_oth_d18",
+        "ch2_iir_nci_20210725T2147324679_d_img_d32"
+      ],
+      "intersection_area_km2": 77.700779,
+      "projection": "lunar LAEA centred at 311.176758\u00b0E, -84.506836\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_014",
+      "center_lon_lat": [
+        24.125977,
+        -84.858398
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20251109T0909533586_d_img_d18",
+        "ch2_tmc_ndn_20231101T1708581528_d_oth_d18",
+        "ch2_iir_nci_20210622T1850441449_d_img_d32"
+      ],
+      "intersection_area_km2": 31.794734,
+      "projection": "lunar LAEA centred at 24.125977\u00b0E, -84.858398\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_001",
+      "center_lon_lat": [
+        249.916992,
+        85.209961
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20211228T0323312035_d_img_hw1",
+        "ch2_tmc_ndn_20221218T0425472967_d_oth_d32",
+        "ch2_iir_nci_20220526T1121466685_d_img_hw1"
+      ],
+      "intersection_area_km2": 74.943803,
+      "projection": "lunar LAEA centred at 249.916992\u00b0E, 85.209961\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_008",
+      "center_lon_lat": [
+        32.211914,
+        -69.213867
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20240315T2053268535_d_img_d18",
+        "ch2_tmc_ndn_20230130T1900132182_d_oth_d32",
+        "ch2_iir_nri_20231003T2152304115_d_img_d18"
+      ],
+      "intersection_area_km2": 66.162053,
+      "projection": "lunar LAEA centred at 32.211914\u00b0E, -69.213867\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_009",
+      "center_lon_lat": [
+        22.719727,
+        -70.883789
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20190906T2241285714_d_img_gds",
+        "ch2_tmc_ndn_20231031T2129157767_d_oth_d18",
+        "ch2_iir_nci_20210720T1202141948_d_img_d32"
+      ],
+      "intersection_area_km2": 76.09671,
+      "projection": "lunar LAEA centred at 22.719727\u00b0E, -70.883789\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_011",
+      "center_lon_lat": [
+        100.327148,
+        -72.641602
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20230818T1143415582_d_img_n18",
+        "ch2_tmc_ndn_20230722T0352271579_d_oth_n18",
+        "ch2_iir_nci_20230722T0352247644_d_img_n18"
+      ],
+      "intersection_area_km2": 75.164304,
+      "projection": "lunar LAEA centred at 100.327148\u00b0E, -72.641602\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_004",
+      "center_lon_lat": [
+        20.170898,
+        -65.170898
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20200827T0423073950_d_img_d18",
+        "ch2_tmc_ndn_20231101T0125121377_d_oth_d18",
+        "ch2_iir_nri_20231225T1904122779_d_img_d18"
+      ],
+      "intersection_area_km2": 85.904707,
+      "projection": "lunar LAEA centred at 20.170898\u00b0E, -65.170898\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_005",
+      "center_lon_lat": [
+        31.772461,
+        -66.665039
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20200826T0459464752_d_img_d18",
+        "ch2_tmc_ndn_20230130T1900132182_d_oth_d32",
+        "ch2_iir_nri_20231003T2152304115_d_img_d18"
+      ],
+      "intersection_area_km2": 75.138157,
+      "projection": "lunar LAEA centred at 31.772461\u00b0E, -66.665039\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_007",
+      "center_lon_lat": [
+        341.411133,
+        -68.686523
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20210405T0442095110_d_img_d18",
+        "ch2_tmc_ndn_20241120T2320105873_d_oth_d18",
+        "ch2_iir_nci_20210126T2126413089_d_img_d32"
+      ],
+      "intersection_area_km2": 77.491236,
+      "projection": "lunar LAEA centred at 341.411133\u00b0E, -68.686523\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_010",
+      "center_lon_lat": [
+        73.344727,
+        -72.290039
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20230820T1432464329_d_img_n18",
+        "ch2_tmc_ndn_20231027T2107171839_d_oth_d18",
+        "ch2_iir_nci_20201223T1500194940_d_img_d32"
+      ],
+      "intersection_area_km2": 75.467978,
+      "projection": "lunar LAEA centred at 73.344727\u00b0E, -72.290039\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_006",
+      "center_lon_lat": [
+        20.874023,
+        -68.422852
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20200827T0030107497_d_img_d18",
+        "ch2_tmc_ndn_20231101T0125121377_d_oth_d18",
+        "ch2_iir_nci_20210720T1400114523_d_img_d32"
+      ],
+      "intersection_area_km2": 76.526921,
+      "projection": "lunar LAEA centred at 20.874023\u00b0E, -68.422852\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_016",
+      "center_lon_lat": [
+        342.026367,
+        -85.913086
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20240815T1252546701_d_img_d18",
+        "ch2_tmc_ndn_20231104T2150417200_d_oth_d18",
+        "ch2_iir_nci_20210126T1532547411_d_img_d32"
+      ],
+      "intersection_area_km2": 6.824109,
+      "projection": "lunar LAEA centred at 342.026367\u00b0E, -85.913086\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_002",
+      "center_lon_lat": [
+        25.180664,
+        -13.40332
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20231004T0406038822_d_img_d18",
+        "ch2_tmc_ndn_20200203T1845562233_d_oth_m65",
+        "ch2_iir_nci_20210123T1449276636_d_img_d32"
+      ],
+      "intersection_area_km2": 21.787785,
+      "projection": "lunar LAEA centred at 25.180664\u00b0E, -13.40332\u00b0",
+      "geometry_valid": true
+    },
+    {
+      "cluster_id": "GLOBAL_DISPLAY_003",
+      "center_lon_lat": [
+        41.44043,
+        -20.170898
+      ],
+      "product_ids": [
+        "ch2_ohr_nrp_20210331T2033243734_d_img_d18",
+        "ch2_tmc_ndn_20240618T1420599324_d_oth_d18",
+        "ch2_iir_nci_20210122T0920157625_d_img_d32"
+      ],
+      "intersection_area_km2": 74.845259,
+      "projection": "lunar LAEA centred at 41.44043\u00b0E, -20.170898\u00b0",
+      "geometry_valid": true
+    }
+  ]
+}

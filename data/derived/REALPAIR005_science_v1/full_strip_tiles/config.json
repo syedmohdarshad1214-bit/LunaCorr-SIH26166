@@ -1,0 +1,75 @@
+{
+  "audit_id": "REALPAIR005_FULLSTRIP_FIXED_TILE_AUDIT_V1",
+  "data_type": "real OHRC/TMC-2 science",
+  "native_ohrc_samples_1based": [
+    1,
+    12000
+  ],
+  "native_ohrc_lines_1based": [
+    1,
+    101074
+  ],
+  "tile_ranges_1based": [
+    [
+      1,
+      10107
+    ],
+    [
+      10108,
+      20214
+    ],
+    [
+      20215,
+      30322
+    ],
+    [
+      30323,
+      40429
+    ],
+    [
+      40430,
+      50537
+    ],
+    [
+      50538,
+      60644
+    ],
+    [
+      60645,
+      70751
+    ],
+    [
+      70752,
+      80859
+    ],
+    [
+      80860,
+      90966
+    ],
+    [
+      90967,
+      101074
+    ]
+  ],
+  "selection": "Ten contiguous equal-line tiles fixed before new tile imagery was projected; no skipped intervals.",
+  "projection": "Same OHRC SPICE/ASP-aligned TMC DTM and fixed image-derived pointing prior as aligned_candidate_config_v1.json; full 12000-sample width; no percentile spatial trim.",
+  "matcher": [
+    "SIFT",
+    "AKAZE"
+  ],
+  "image_gates": {
+    "ratio": 0.75,
+    "reciprocal": true,
+    "geometry_window_tmc_5m_px": 500,
+    "ransac_residual_tmc_5m_px": 4,
+    "min_train_inliers": 6,
+    "min_train_ratio": 0.4,
+    "min_heldout_inliers": 3,
+    "min_heldout_ratio": 0.4,
+    "min_occupied_cells_of_18": 6,
+    "min_hull_fraction": 0.15,
+    "max_reverse_median_tmc_5m_px": 3
+  },
+  "whole_overlap_rule": "REGISTERED only if all ten tiles have valid camera/DTM coverage across the true pixel overlap and both matchers pass their fixed gates in every tile; any unsupported or failed tile retains ABSTAIN. Existing development tile results are diagnostic, not fresh blind validation.",
+  "source_config_sha256": "1f5e9fc4e3cc39d028c93ff04b38284295e958ec4d5f7c1af5bc3d1ccb970edd"
+}

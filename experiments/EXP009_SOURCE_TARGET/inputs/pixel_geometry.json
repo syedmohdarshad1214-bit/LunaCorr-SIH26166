@@ -1,0 +1,61 @@
+{
+  "source_working_to_native": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "target_working_to_native": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_to_target_prior": [
+    [
+      1,
+      0,
+      8
+    ],
+    [
+      0,
+      1,
+      -5
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "search_radius_target_working_px": 24,
+  "source_product_id": "SYNTHETIC_SOURCE",
+  "target_product_id": "SYNTHETIC_TARGET",
+  "target_working_grid": "SYNTHETIC target native 640x640 grid",
+  "status": "VERIFIED_PIXEL_GEOMETRY",
+  "basis": "SYNTHETIC simulation camera; approximate prior differs from known truth",
+  "roi_bundle_sha256": "fb757675e9dee06ad2829baa32267c60e8c2ab682f5b9eccbafeec7365211c15",
+  "geometry_report_sha256": "1192425a209fa636246a784df8c9b08c2c84d48193f93a484f3ea6e827b8796f"
+}

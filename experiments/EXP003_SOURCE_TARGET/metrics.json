@@ -1,0 +1,207 @@
+{
+  "status": "REGISTERED",
+  "reason": "PAIR_GEOMETRY_IMAGE_AND_REVERSE_CYCLE_PASSED",
+  "candidate_count": 2291,
+  "inlier_count": 2288,
+  "inlier_ratio": 0.9986905281536447,
+  "cycle_closure_error": {
+    "frame": "SYNTHETIC source native 640x640 grid",
+    "unit": "pixel",
+    "population": "forward inliers returned through independently fitted reverse model",
+    "count": 2288,
+    "mean": 0.0007413479172055179,
+    "median": 0.0007413479172055178,
+    "rmse": 0.0007413479172055178,
+    "p90": 0.0007413479172055178,
+    "definition": "Euclidean 2D point residual; P90 uses linear quantile interpolation.",
+    "status": "MEASURED",
+    "method": "independent reverse feature detection and robust fit",
+    "reverse_candidates": 2297,
+    "reverse_inliers": 2295,
+    "reverse_matrix": [
+      [
+        1.0,
+        0.0,
+        -8.999687194824219
+      ],
+      [
+        0.0,
+        1.0,
+        6.000190734863281
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "cycle_check": "MEASURED",
+  "ground_error_m": null,
+  "ground_error_reference": "UNAVAILABLE",
+  "confidence": 0.9986905281536447,
+  "confidence_calibration": "UNCALIBRATED_SUPPORT_SCORE: minimum of inlier ratio and occupied-grid fraction; not probability or ground accuracy",
+  "target_working_grid": "SYNTHETIC target native 640x640 grid",
+  "runtime_s": 0.17396358299993153,
+  "scope": "Prepared overlap-grid baseline; held-out image matches are not independent ground truth.",
+  "normalization": {
+    "source": {
+      "usable": true,
+      "percentiles": [
+        2,
+        98
+      ],
+      "low": 90.0,
+      "high": 162.0
+    },
+    "target": {
+      "usable": true,
+      "percentiles": [
+        2,
+        98
+      ],
+      "low": 92.0,
+      "high": 159.0
+    }
+  },
+  "dark_pixel_fraction": {
+    "source": 0.03521944444444444,
+    "target": 0.03521944444444444
+  },
+  "mask_method": "Normalized intensity threshold; shadow proxy, not a physical illumination model",
+  "representation": "intensity",
+  "source_features": 2500,
+  "target_features": 2500,
+  "inlier_errors": {
+    "frame": "SYNTHETIC target native 640x640 grid",
+    "unit": "pixel",
+    "population": "all robust-model inliers",
+    "count": 2288,
+    "mean": 0.047293449193427775,
+    "median": 0.02611610266330721,
+    "rmse": 0.11846495231605916,
+    "p90": 0.08040015002642344,
+    "definition": "Euclidean 2D point residual; P90 uses linear quantile interpolation."
+  },
+  "heldout_inlier_errors": {
+    "frame": "SYNTHETIC target native 640x640 grid",
+    "unit": "pixel",
+    "population": "held-out inliers, excluded from fitting",
+    "count": 572,
+    "mean": 0.04864743655799288,
+    "median": 0.02554143106338923,
+    "rmse": 0.13743811781884327,
+    "p90": 0.07444122806118958,
+    "definition": "Euclidean 2D point residual; P90 uses linear quantile interpolation."
+  },
+  "all_candidate_errors": {
+    "frame": "SYNTHETIC target native 640x640 grid",
+    "unit": "pixel",
+    "population": "all tentative candidates",
+    "count": 2291,
+    "mean": 0.05313173991412791,
+    "median": 0.026123461318962062,
+    "rmse": 0.2364776302945669,
+    "p90": 0.08085731524456267,
+    "definition": "Euclidean 2D point residual; P90 uses linear quantile interpolation."
+  },
+  "spatial_coverage": {
+    "source": {
+      "occupied_cells": 16,
+      "eligible_cells": 16,
+      "grid_coverage": 1.0,
+      "convex_hull_coverage": 0.9136047917840658,
+      "clustering_max_cell_fraction": 0.09527972027972027,
+      "grid_shape": [
+        4,
+        4
+      ],
+      "grid_counts": [
+        [
+          86,
+          167,
+          102,
+          130
+        ],
+        [
+          114,
+          218,
+          192,
+          133
+        ],
+        [
+          149,
+          195,
+          197,
+          150
+        ],
+        [
+          153,
+          95,
+          136,
+          71
+        ]
+      ],
+      "support_pixels": 315874,
+      "definition": "Cells eligible with >=1 valid pixel; hull rasterized at pixel centers and clipped to supplied overlap/validity mask."
+    },
+    "target": {
+      "occupied_cells": 16,
+      "eligible_cells": 16,
+      "grid_coverage": 1.0,
+      "convex_hull_coverage": 0.9140891621342687,
+      "clustering_max_cell_fraction": 0.10139860139860139,
+      "grid_shape": [
+        4,
+        4
+      ],
+      "grid_counts": [
+        [
+          82,
+          180,
+          103,
+          139
+        ],
+        [
+          102,
+          232,
+          183,
+          150
+        ],
+        [
+          141,
+          188,
+          180,
+          177
+        ],
+        [
+          132,
+          98,
+          128,
+          73
+        ]
+      ],
+      "support_pixels": 315874,
+      "definition": "Cells eligible with >=1 valid pixel; hull rasterized at pixel centers and clipped to supplied overlap/validity mask."
+    }
+  },
+  "ground_residual_m": 0.5923247615802958,
+  "ground_residual_definition": "Relative image-model RMSE scaled by target working metres/pixel; not absolute lunar ground accuracy.",
+  "software": {
+    "opencv": "4.13.0",
+    "numpy": "2.5.3"
+  },
+  "peak_process_memory_bytes": 294158336,
+  "memory_definition": "Process peak RSS including interpreter/dependencies and input checks, measured before report rendering.",
+  "synthetic_known_transform_error": {
+    "frame": "SYNTHETIC target native 640x640 grid",
+    "unit": "pixel",
+    "population": "model versus generator ground truth at inlier locations",
+    "count": 2288,
+    "mean": 0.000781631376639752,
+    "median": 0.000781631376639752,
+    "rmse": 0.000781631376639752,
+    "p90": 0.000781631376639752,
+    "definition": "Euclidean 2D point residual; P90 uses linear quantile interpolation."
+  }
+}

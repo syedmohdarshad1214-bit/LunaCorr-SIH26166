@@ -1,0 +1,16 @@
+{
+  "product_records": [],
+  "profiles": ["isda_system_corners", "isda_system_corners"],
+  "contexts": [
+    {"target":"Moon","radius_m":null,"datum":"","frame":"","longitude_direction":"east","longitude_domain":"0_360","latitude_type":"planetocentric","edge_model":"shortest_geodesic","metadata_source":""},
+    {"target":"Moon","radius_m":null,"datum":"","frame":"","longitude_direction":"east","longitude_domain":"0_360","latitude_type":"planetocentric","edge_model":"shortest_geodesic","metadata_source":""}
+  ],
+  "orthorectified_reviewed": false,
+  "geometry_basis": "",
+  "browse_review": "data/derived/browse_review.json",
+  "bands": [[1],[1]],
+  "band_selection_reason": "",
+  "working_resolution_m": 0,
+  "search_radius_working_px": 24,
+  "experiment_id": "EXP100_SOURCE_TARGET"
+}

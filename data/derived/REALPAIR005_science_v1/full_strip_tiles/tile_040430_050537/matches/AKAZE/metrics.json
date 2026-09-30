@@ -1,0 +1,30 @@
+{
+  "audit_id": "REALPAIR005_FULLSTRIP_TILE_040430_050537_AKAZE_V1",
+  "descriptor": "AKAZE",
+  "candidates": 587,
+  "training_candidates": 486,
+  "training_inliers": 458,
+  "training_inlier_ratio": 0.9423868312757202,
+  "heldout_candidates": 101,
+  "heldout_inliers": 92,
+  "heldout_inlier_ratio": 0.9108910891089109,
+  "all_inliers": 550,
+  "rmse_tmc_5m_px": 1.8157150745391846,
+  "median_residual_tmc_5m_px": 1.2763983011245728,
+  "p90_residual_tmc_5m_px": 3.0888586044311523,
+  "occupied_cells_3x6": 14,
+  "hull_fraction": 0.46626029650095235,
+  "heldout_cycle_median_5m_px": 1.6969884634017944,
+  "fixed_support_gates": {
+    "train_inliers": 6,
+    "train_ratio": 0.4,
+    "heldout_inliers": 3,
+    "heldout_ratio": 0.4,
+    "occupied_cells": 6,
+    "hull_fraction": 0.15,
+    "cycle_px": 3.0
+  },
+  "image_gate_passed": true,
+  "registration_decision": "LOCAL_IMAGE_GATE_PASS_ONLY",
+  "runtime_seconds": 0.06990979200054426
+}

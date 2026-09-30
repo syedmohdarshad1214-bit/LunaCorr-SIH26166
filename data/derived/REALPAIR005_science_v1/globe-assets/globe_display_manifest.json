@@ -1,0 +1,58 @@
+{
+  "purpose": "Offline visualization only; no camera registration inferred from browse placement",
+  "images": [
+    {
+      "sensor": "ohrc",
+      "source": "data/browse/ch2_ohr_nrp_20241117T2033118394_full_browse.png",
+      "source_sha256": "77fb8b3797f0f6e07fbf5d505892119c1c9cf7ecd6b81660ce24537c978992b6",
+      "display": "globe-ohrc-drape.jpg",
+      "display_sha256": "b6327b869dc9ece59e496d9f2ebcff945084cb5d3bed0dead0dcadf34b501ffb",
+      "dimensions": [
+        973,
+        8192
+      ],
+      "placement": "APPROXIMATE_CATALOGUE_CORNERS"
+    },
+    {
+      "sensor": "iirs",
+      "source": "data/browse/ch2_iir_nci_20210622T1850441449_full_browse.png",
+      "source_sha256": "3aad0caa599658ff9708b93dfc9e5875571603cc2dd22dc3c2d6251a582dbdfd",
+      "display": "globe-iirs-drape.jpg",
+      "display_sha256": "44d8d456447066a36ebeb8055aae501c8bf6e4fb87b34c7550893c51b246c5ec",
+      "dimensions": [
+        62,
+        4096
+      ],
+      "placement": "APPROXIMATE_CATALOGUE_CORNERS"
+    },
+    {
+      "sensor": "ohrc-20200827",
+      "source": "data/browse/ch2_ohr_nrp_20200827T0030107497_d_img_d18.png",
+      "source_sha256": "87888e58faa6098c1f8e83b4b0b06c8970114c068ecfbee6d14869feca71004f",
+      "display": "globe-ohrc-20200827-drape.jpg",
+      "display_sha256": "154c2193c7680c97b12edf5c8d755290bce766c216ac1efa5417fa870d55f6e3",
+      "dimensions": [
+        973,
+        8192
+      ],
+      "placement": "APPROXIMATE_CATALOGUE_CORNERS"
+    },
+    {
+      "sensor": "TMC-2",
+      "source": "data/raw/ch2_tmc_ndn_20231101T0125121377_d_oth_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.tif",
+      "source_sha256": "2648b33e142c47cd08a006702fa1e3360153f87b0458179258349a1b81acd7c5",
+      "display": "globe-tmc2-ortho-drape.png",
+      "display_sha256": "978c3589321fedf6dc55ae923d6f7be0f09b5bfe8d35cf2d6aa9711fa7fde6e5",
+      "dimensions": [
+        1353,
+        4096
+      ],
+      "placement": "SCIENCE_GEOTIFF_RASTER_BOUNDS",
+      "nodata": "alpha=0 where downsampled DN=0",
+      "display_stretch_dn": [
+        1.0,
+        185.0
+      ]
+    }
+  ]
+}

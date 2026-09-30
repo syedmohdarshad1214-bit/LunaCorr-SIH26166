@@ -1,0 +1,51 @@
+{
+  "audit_id": "REALPAIR005_TMC_NAV_AFFINE_FROM_ASP_V1",
+  "source_tmc_dtm": "ch2_tmc_ndn_20231101T0125121377_d_dtm_d18",
+  "source_grid": "TMC DTM ROI averaged to 120 m on LOLA polar grid",
+  "sample_count": 48032,
+  "source_transform_sha256": "be86ff8eed24ba42f6668ea14880f4be080733dd3c37e6cfb20f23660e2e6331",
+  "fit_local_bbox_m": [
+    64620.0,
+    119340.0,
+    93780.0,
+    161940.0
+  ],
+  "nominal_to_lola_map_affine_2x2": [
+    [
+      0.9999145205113483,
+      -3.658148943868898e-05
+    ],
+    [
+      4.8029644451909044e-05,
+      0.9999095750866145
+    ]
+  ],
+  "nominal_to_lola_map_translation_m": [
+    -1299.8972139543039,
+    -3590.7535743529443
+  ],
+  "map_affine_residual_m": {
+    "median": 0.06010444475441555,
+    "p90": 0.11511868643053182,
+    "max": 0.38637827915190853
+  },
+  "vertical_delta_m": {
+    "median": -30.742447542375885,
+    "p10": -33.88496298873797,
+    "p90": -27.956394746061413
+  },
+  "vertical_delta_plane_m_from_nominal_xy_m": {
+    "coefficients_x_y_constant": [
+      0.00022230702138638296,
+      -0.00022544320695100736,
+      -16.79088007710308
+    ],
+    "residual_median_abs": 0.00089912461006314,
+    "residual_p90_abs": 0.0016638819377199354
+  },
+  "limits": [
+    "Valid only in local REALPAIR005 footprint; ASP transform was estimated at 120 m.",
+    "Do not infer 5 m absolute geolocation accuracy from small affine approximation residuals.",
+    "No OHRC camera pointing correction is applied here."
+  ]
+}

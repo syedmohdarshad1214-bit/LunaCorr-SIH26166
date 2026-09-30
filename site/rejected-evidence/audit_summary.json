@@ -1,0 +1,54 @@
+{
+  "audit_id": "REALPAIR001_adjusted_registration_v5",
+  "decision": "REJECTED_CONSISTENCY",
+  "decision_reason": "Descriptor-supported displacement is approximately 6.97 km, while independent ASP pc_align of 10690 OHRC stereo terrain points to the real TMC DTM estimates a 649.64 m translation. Geometry and image evidence therefore do not agree.",
+  "camera_geometry": {
+    "isis_csm_equivalence": "PASS",
+    "max_round_trip_difference_img1_px": 0.0139755,
+    "stereo_bundle_adjustment": "PASS",
+    "final_control_points": 10690,
+    "final_median_residual_img1_px": 0.25763772151832853,
+    "final_median_residual_img2_px": 0.26264688448769785
+  },
+  "adjusted_projection": {
+    "resolution_m": 5.0,
+    "width": 2373,
+    "height": 5149,
+    "bounds_m": [231347.5, 606557.5, 243212.5, 632302.5],
+    "sha256": "9f76f2d89a3a8dca5d3dd78376e5f0dca418fb24c5362462829c2b3f6c88a6bf"
+  },
+  "sift": {
+    "experiment_id": "EXP038_OHRC_TMC_SIFT_GRADIENT",
+    "training": "8/19 (42.11%)",
+    "heldout": "0/6 (0.00%)",
+    "coverage_cells": "5/18",
+    "hull_fraction": 0.041138127942226266,
+    "support_gate": "FAIL"
+  },
+  "akaze": {
+    "experiment_id": "EXP039_OHRC_TMC_AKAZE_GRADIENT",
+    "training": "36/85 (42.35%)",
+    "heldout": "25/50 (50.00%)",
+    "heldout_inlier_rmse_native_tmc_px": 1.906366779449195,
+    "coverage_cells": "8/18",
+    "hull_fraction": 0.09300504289052047,
+    "support_gate": "PASS",
+    "coverage_gate": "FAIL"
+  },
+  "descriptor_displacement": {
+    "sift_median_m": 6970.428226967662,
+    "akaze_median_m": 6974.406708246843,
+    "interpretation": "Consistent with the candidate-region prior but inconsistent with independent terrain alignment; not accepted as a camera correction or control network."
+  },
+  "pc_align": {
+    "source_points": 10690,
+    "translation_magnitude_m": 649.64189,
+    "translation_ned_m": [-447.04151, 432.44529, -187.56209],
+    "input_rmse_m": 193.991,
+    "output_rmse_m": 97.881,
+    "output_median_m": 63.2206,
+    "result": "INDEPENDENT_GEOMETRIC_ESTIMATE_DISAGREES_WITH_DESCRIPTOR_DISPLACEMENT"
+  },
+  "accepted_science_control_points": 0,
+  "next_action": "Select an illumination-compatible OHRC/TMC pair or obtain external lunar control, then freeze a new untouched validation region before matcher tuning. Do not tune EXP038 held-out points."
+}

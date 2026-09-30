@@ -1,0 +1,10 @@
+{
+  "source": "real PRADAN OHRC and TMC science rasters",
+  "ohrc_product_id": "ch2_ohr_nrp_20241117T2033118394_d_img_d18",
+  "tmc_ortho_product_id": "ch2_tmc_ndn_20231101T0125121377_d_oth_d18",
+  "tmc_dtm_product_id": "ch2_tmc_ndn_20231101T0125121377_d_dtm_d18",
+  "projection_audit": "REALPAIR005_FULLSTRIP_TILE_050538_060644_V1",
+  "camera_dtm_vertical_datum": "ASP TMC/LOLA 120m aligned; 5m absolute accuracy unverified",
+  "data_type": "real",
+  "audit_id": "REALPAIR005_FULLSTRIP_TILE_050538_060644_AKAZE_V1"
+}

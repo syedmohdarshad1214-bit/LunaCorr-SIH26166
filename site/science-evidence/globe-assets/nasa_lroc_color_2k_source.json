@@ -1,0 +1,14 @@
+{
+  "asset": "nasa_lroc_color_2k.jpg",
+  "sha256": "ec98386c3b39ad2dab5970db5b5aecb8946db3f450aee4d78ce7382e0060bf87",
+  "dimensions": [
+    2048,
+    1024
+  ],
+  "source_page": "https://svs.gsfc.nasa.gov/4720/",
+  "source_asset": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/lroc_color_2k.jpg",
+  "downloaded_from": "https://raw.githubusercontent.com/MaxwellLee/physics-lab/main/assets/textures/moon_2048.jpg",
+  "source_claim": "Repository mirror documents this JPEG as derived from NASA SVS CGI Moon Kit LROC color map; direct NASA download timed out, so byte identity with NASA original was not checked.",
+  "scientific_use": "Visualization only. Do not infer OHRC/TMC/IIRS pixel correspondence or camera accuracy from this global base map.",
+  "credit": "NASA Scientific Visualization Studio; Ernie Wright (USRA); LRO/LROC and LOLA teams."
+}

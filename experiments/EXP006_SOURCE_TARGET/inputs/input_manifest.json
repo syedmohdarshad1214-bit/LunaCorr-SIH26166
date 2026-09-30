@@ -1,0 +1,59 @@
+{
+  "evidence_type": "SYNTHETIC",
+  "inputs": {
+    "roi_bundle": {
+      "path": "data/derived/demo_b6b368ddf3a2/roi.npz",
+      "sha256": "fb757675e9dee06ad2829baa32267c60e8c2ab682f5b9eccbafeec7365211c15"
+    },
+    "geometry_report": {
+      "path": "data/derived/demo_b6b368ddf3a2/geometry.json",
+      "sha256": "ba9216676c19ffdb76f70800cd4119a1607addfd7486cf519bf5a72cd965020a"
+    },
+    "pixel_geometry": {
+      "path": "data/derived/demo_b6b368ddf3a2/pixel_geometry.json",
+      "sha256": "ebc89fb79efe11871164ac56d6068667fc6ca193290a354c0bd95a23fc5ea550"
+    },
+    "source_label": {
+      "path": "data/derived/demo_b6b368ddf3a2/source.xml",
+      "sha256": "b127ef3c0f34ff2fc7591b7276fbb560fc6eb62adc955868932bfd97463eb923"
+    },
+    "target_label": {
+      "path": "data/derived/demo_b6b368ddf3a2/target.xml",
+      "sha256": "384a1bc399192e0af4fcb7e074942619bf5bf2bbcd43e97aa6eed66eba5a6984"
+    },
+    "coordinate_context": {
+      "path": "data/derived/demo_b6b368ddf3a2/context.json",
+      "sha256": "a9206cbd1677b3996b05cefa9c43c5f66a275f754d4335d2c90497bc5b896be2"
+    },
+    "source_browse": {
+      "path": "data/derived/demo_b6b368ddf3a2/source.png",
+      "sha256": "b4a079967fff180715c5011048487a6f5339643ee37f98ef7e45ad159ebd3b6c"
+    },
+    "target_browse": {
+      "path": "data/derived/demo_b6b368ddf3a2/target.png",
+      "sha256": "41ffe64e9b2130aaf18c6f49b8d6d21e0d6d6ab97135722d7b16e95209302078"
+    }
+  },
+  "synthetic_generator": {
+    "name": "src/ingest/demo_pack.py",
+    "seed": 19,
+    "known_source_to_target": [
+      [
+        1.0,
+        0.0,
+        9.0
+      ],
+      [
+        0.0,
+        1.0,
+        -6.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "note": "Same-scale generated crater texture; does not establish cross-sensor capability or resolve the 320x gap."
+  }
+}

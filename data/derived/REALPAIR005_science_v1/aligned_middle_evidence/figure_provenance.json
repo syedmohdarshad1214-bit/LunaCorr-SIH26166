@@ -1,0 +1,11 @@
+{
+  "data_type": "real",
+  "ohrc_product_id": "ch2_ohr_nrp_20241117T2033118394_d_img_d18",
+  "tmc_product_id": "ch2_tmc_ndn_20231101T0125121377_d_oth_d18",
+  "grid": "TMC native ortho 5 m/pixel",
+  "correspondence_selection": "deterministic spatial thinning of held-out SIFT matches; all metrics use full held-out set",
+  "shown_heldout_inliers": 13,
+  "shown_heldout_outliers": 3,
+  "overlay_transform": "SIFT training-only local affine after fixed camera/terrain candidate projection",
+  "absolute_geolocation_verified_at_5m": false
+}

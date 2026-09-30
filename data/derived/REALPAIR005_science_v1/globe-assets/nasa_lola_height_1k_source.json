@@ -1,0 +1,10 @@
+{
+  "asset": "nasa_lola_height_1k.jpg",
+  "sha256": "6d93f887e7d8bedfe35ab89ba785e5e3ca12381bd092a5e6abe2c707dda8bb98",
+  "dimensions": [1024, 512],
+  "source_page": "https://svs.gsfc.nasa.gov/4720/",
+  "source_asset": "https://svs.gsfc.nasa.gov/vis/a000000/a004700/a004720/ldem_3_8bit.jpg",
+  "downloaded_from": "https://raw.githubusercontent.com/MaxwellLee/physics-lab/main/assets/textures/moon_height_1024.jpg",
+  "source_claim": "Repository mirror documents this file as byte-for-byte the NASA CGI Moon Kit 8-bit LOLA elevation preview. Direct NASA host timed out, so byte identity with the original was not independently checked.",
+  "scientific_use": "Visualization-only bump lighting. Not used for elevation measurements, sensor registration, or overlap verification."
+}

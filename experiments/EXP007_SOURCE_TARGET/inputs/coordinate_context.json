@@ -1,0 +1,11 @@
+{
+  "target": "Moon",
+  "radius_m": 1737400,
+  "datum": "SYNTHETIC lunar sphere",
+  "frame": "SYNTHETIC fixed frame",
+  "longitude_direction": "east",
+  "longitude_domain": "-180_180",
+  "latitude_type": "planetocentric",
+  "edge_model": "shortest_geodesic",
+  "metadata_source": "LunaCorr synthetic generator, explicit simulation assumptions"
+}

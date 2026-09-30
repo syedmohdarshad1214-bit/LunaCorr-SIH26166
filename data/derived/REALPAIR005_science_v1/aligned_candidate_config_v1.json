@@ -1,0 +1,14 @@
+{
+  "audit_id": "REALPAIR005_ALIGNED_CANDIDATE_PROJECTION_V1",
+  "science_data_type": "real",
+  "scope": "OHRC/TMC-2 only",
+  "tmc_navigation_source": "ASP 3-D TMC DTM to NASA LOLA 120 m, independently corroborated by TMC ortho versus LOLA hillshade; local horizontal affine and vertical plane in tmc_navigation_affine.json",
+  "camera_source": "OHRC IK/SPICE CK/SPK with 162.1 microsecond line cadence",
+  "candidate_pointing_prior_true_map_xy_m": [-2462.77986511, -4187.92953467],
+  "pointing_prior_training_source": "Mean of SIFT/AKAZE centre residuals on two previously observed OHRC ROIs, from pointing_residual_accounting.json",
+  "output_grid": "nominal TMC-2 ortho polar stereographic 5 m; ground rays use aligned terrain and are converted back through inverse TMC navigation affine",
+  "untouched_middle_region_native_ohrc_lines": [42000, 58000],
+  "middle_region_image_pixels_previously_inspected": false,
+  "middle_region_test_gate": {"lowe_ratio": 0.75, "mutual_nearest_neighbour": true, "geometry_window_tmc_5m_px": 500, "residual_tmc_5m_px": 4, "train_inliers_min": 6, "train_ratio_min": 0.4, "heldout_inliers_min": 3, "heldout_ratio_min": 0.4, "occupied_cells_3x6_min": 6, "hull_fraction_min": 0.15, "independent_reverse_median_5m_px_max": 3},
+  "decision": "Candidate prior only; do not mark REGISTERED unless both geometry and untouched image/cycle evidence pass. 120 m LOLA alignment does not establish 5 m absolute accuracy."
+}

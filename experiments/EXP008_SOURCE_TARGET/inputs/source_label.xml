@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Product_Observational xmlns="http://pds.nasa.gov/pds4/pds/v1" xmlns:geom="http://pds.nasa.gov/pds4/geom/v1">
+<!-- SYNTHETIC fixture. Not an ISRO label or real lunar observation. -->
+<Identification_Area><logical_identifier>urn:synthetic:source</logical_identifier></Identification_Area>
+<Observation_Area><Target_Identification><name>Moon</name></Target_Identification></Observation_Area>
+<geom:Footprint_Vertices><geom:Pixel_Intercept><geom:pixel_longitude unit="deg">19.999769944811</geom:pixel_longitude><geom:pixel_latitude unit="deg">-68.999917555130</geom:pixel_latitude></geom:Pixel_Intercept><geom:Pixel_Intercept><geom:pixel_longitude unit="deg">20.294238374286</geom:pixel_longitude><geom:pixel_latitude unit="deg">-68.999664781226</geom:pixel_latitude></geom:Pixel_Intercept><geom:Pixel_Intercept><geom:pixel_longitude unit="deg">20.295657325947</geom:pixel_longitude><geom:pixel_latitude unit="deg">-69.105192768003</geom:pixel_latitude></geom:Pixel_Intercept><geom:Pixel_Intercept><geom:pixel_longitude unit="deg">19.999768835361</geom:pixel_longitude><geom:pixel_latitude unit="deg">-69.105446805904</geom:pixel_latitude></geom:Pixel_Intercept></geom:Footprint_Vertices></Product_Observational>

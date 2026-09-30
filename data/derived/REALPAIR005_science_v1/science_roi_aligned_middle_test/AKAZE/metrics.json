@@ -1,0 +1,30 @@
+{
+  "audit_id": "REALPAIR005_ALIGNED_MIDDLE_TEST_V1_AKAZE",
+  "descriptor": "AKAZE",
+  "candidates": 426,
+  "training_candidates": 370,
+  "training_inliers": 362,
+  "training_inlier_ratio": 0.9783783783783784,
+  "heldout_candidates": 56,
+  "heldout_inliers": 48,
+  "heldout_inlier_ratio": 0.8571428571428571,
+  "all_inliers": 410,
+  "rmse_tmc_5m_px": 1.4353605508804321,
+  "median_residual_tmc_5m_px": 1.1241185665130615,
+  "p90_residual_tmc_5m_px": 2.1868703365325928,
+  "occupied_cells_3x6": 10,
+  "hull_fraction": 0.27934589356786055,
+  "heldout_cycle_median_5m_px": 2.200883984565735,
+  "fixed_support_gates": {
+    "train_inliers": 6,
+    "train_ratio": 0.4,
+    "heldout_inliers": 3,
+    "heldout_ratio": 0.4,
+    "occupied_cells": 6,
+    "hull_fraction": 0.15,
+    "cycle_px": 3.0
+  },
+  "image_gate_passed": true,
+  "registration_decision": "ABSTAIN_PENDING_INDEPENDENT_GROUND_CONTROL",
+  "runtime_seconds": 0.05649566600914113
+}
