@@ -1,0 +1,72 @@
+{
+  "note": "Release copy redacts local absolute file paths; SHA-256 manifests were refreshed for modified files. Original and release hashes are recorded here.",
+  "redactions": [
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_040430_050537/projection.log",
+      "original_sha256": "d05150196d88980817f21e5ffaeaa31f50de43e8bfa66957ac915c26cebe63b5",
+      "release_sha256": "dc448c4470621e89eafec2c10a2788aea3a3d00bcb1e6b1355a5ddcdda1de9ae",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_050538_060644/projection.log",
+      "original_sha256": "4d8dd4ec3075672b838179105ac6f6980cec0e9aa1cecc6671f53633e0d74d58",
+      "release_sha256": "e430f16373c3fd3684c30916d2eb4e809c65d3589297aebeb54420044a33c5cf",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_090967_101074/projection.log",
+      "original_sha256": "67065ebdf6277797bb66cf91c6b1323ab4f0ef8136e86450e0bea051ad1af4af",
+      "release_sha256": "a95187128da9a89154acdff7299b7f0a90cab3ff0e28400df43fd17c9d4fd60c",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_000001_010107/projection.log",
+      "original_sha256": "ec6c7cf44b8de957bc6dd18347cb045fa40760977c4fbeb722836357a5426f3c",
+      "release_sha256": "6b406ee50c28d62af2ead6e9e6c3bb98253200b98e20733803307e968b749af5",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_030323_040429/projection.log",
+      "original_sha256": "06891d51538ac2d60b48e405121bf58efea019f2d4fecb43b1598dca024d3f80",
+      "release_sha256": "80cd8a03d68f8cf2cc135fbbafd51f61d4da529971e7ec5b30e1417ba43c7b65",
+      "paths_redacted": 3
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_060645_070751/projection.log",
+      "original_sha256": "55f2529829ce29e0d164eb01205dbf30556308271b4de2bc47ab10a7a67cead2",
+      "release_sha256": "6f768cf75bae2522b77a84c1ab66a3768c65900a548cd716e2550879942b7974",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_070752_080859/projection.log",
+      "original_sha256": "39461b47a774e11f09f056095ac8afaa9d6e8a6f570c7163ab95523a5e109c4f",
+      "release_sha256": "f6c5aadcb4b4831e9b6af1dcb99fe75af1fc6c03429b626e4c5dd751c55497fa",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_020215_030322/projection.log",
+      "original_sha256": "6ef94853514c47af96b9291061badecfbe108ea57a5f43922dc39820c5ee2140",
+      "release_sha256": "b8776885059636198c4cdb9c060d85aef5e9aef282ac19d1e269631187c2a4d8",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_080860_090966/projection.log",
+      "original_sha256": "96710f90c862c3113242ce0cd0f8aa2a74777006d828a806ff49b33271190f72",
+      "release_sha256": "2bd2fc46750845d4a642c5a523de051668419ee9aec8e4c12e5fef5902bf6f03",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/full_strip_tiles/tile_010108_020214/projection.log",
+      "original_sha256": "64b5ef216e0eb23dcec9d8dad2f6ae3ee04e4fc41bef64a4ae917515735bd8af",
+      "release_sha256": "bf4a1222cebb573ba9807de9c69e5eda3bda52664eaa3be99b5f82796646e294",
+      "paths_redacted": 1
+    },
+    {
+      "file": "data/derived/REALPAIR005_science_v1/science_roi_aligned_middle_test/control_point_provenance.json",
+      "original_sha256": "c6ec082ed3398ca28fa15445c6862af6872ce86b00be1cdb7ee6116f0258f98b",
+      "field": "input_tmc_science_raster",
+      "release_sha256": "d63ec27531b54d90b6501471823e175c95aedbf5517bf45bc12a74b05d341dc5",
+      "paths_redacted": 1
+    }
+  ]
+}

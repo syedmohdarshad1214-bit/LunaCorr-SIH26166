@@ -2,7 +2,7 @@
   "audit_id": "REALPAIR005_ALIGNED_MIDDLE_CONTROL_PROVENANCE_V1",
   "input_native_lookup_sha256": "e03e99ca9681374e1770c1083965360466f22250b0b4274ea4dfd5986e916492",
   "input_projection_sha256": "cc420be9ce4d988883158547ba22dcdbd08a4c15ee9f1454d4159ec0c0d6bd83",
-  "input_tmc_science_raster": "/Users/deimos/Documents/SIH26166/lunacorr/data/raw/ch2_tmc_ndn_20231101T0125121377_d_oth_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.tif",
+  "input_tmc_science_raster": "data/raw/ch2_tmc_ndn_20231101T0125121377_d_oth_d18/data/derived/20231101/ch2_tmc_ndn_20231101T0125121377_d_oth_d18.tif",
   "source_pixel_coordinates": "OHRC interpolated from SPICE/DTM projection lookup; TMC native pixel from original 5 m raster geotransform",
   "ground_coordinate_limit": "ASP/LOLA-aligned local map approximation; 5 m absolute geolocation not validated",
   "results": {

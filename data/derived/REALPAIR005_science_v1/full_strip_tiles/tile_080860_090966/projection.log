@@ -31,5 +31,5 @@
   "navigation_source": "tmc_navigation_affine.json",
   "decision": "ABSTAIN_GEOMETRY_NOT_INDEPENDENTLY_VERIFIED"
 }
-/Users/deimos/Documents/SIH26166/lunacorr/tools/miniconda-intel/envs/lunacorr-asp/lib/python3.13/site-packages/osgeo/gdal.py:606: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
+<LOCAL_PYTHON>/site-packages/osgeo/gdal.py:606: FutureWarning: Neither gdal.UseExceptions() nor gdal.DontUseExceptions() has been explicitly called. In GDAL 4.0, exceptions will be enabled by default.
   warnings.warn(
