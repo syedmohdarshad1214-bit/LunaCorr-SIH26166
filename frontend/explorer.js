@@ -139,6 +139,7 @@ function makeRenderer(canvas) {
     gl.bindTexture(gl.TEXTURE_2D, heightTexture);
     gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
     gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGB, gl.RGB, gl.UNSIGNED_BYTE, heightImage);
+    heightReady = true;
   };
   heightImage.onerror = () => showError("The offline lunar elevation map could not be loaded.");
   heightImage.src = "/science-evidence/globe-assets/nasa_lola_height_1k.jpg";
@@ -157,10 +158,11 @@ function makeRenderer(canvas) {
     gl.bindTexture(gl.TEXTURE_2D, overlapTexture);
     gl.pixelStorei(gl.UNPACK_FLIP_Y_WEBGL, true);
     gl.texImage2D(gl.TEXTURE_2D, 0, gl.RGBA, gl.RGBA, gl.UNSIGNED_BYTE, overlapImage);
+    overlapReady = true;
   };
   overlapImage.onerror = () => showError("The saved global overlap map could not be loaded.");
   overlapImage.src = "/science-evidence/globe-assets/global-triples-validated.png";
-  let ready = false;
+  let ready = false, heightReady = false, overlapReady = false, announced = false;
   let activeStrip = null, request = 0;
   const image = new Image();
   image.onload = () => {
@@ -194,6 +196,10 @@ function makeRenderer(canvas) {
       gl.clearColor(0, 0, 0, 0);
       gl.clear(gl.COLOR_BUFFER_BIT);
       if (!ready) return;
+      if (heightReady && overlapReady && !announced) {
+        announced = true;
+        requestAnimationFrame(() => window.dispatchEvent(new Event("lunacorr:explorer-ready")));
+      }
       gl.uniform2f(uniforms.uCanvas, width, height);
       gl.uniform2f(uniforms.uCenter, longitude*radians, latitude*radians);
       gl.uniform1f(uniforms.uRadius, radius);
@@ -212,6 +218,7 @@ function makeRenderer(canvas) {
 }
 
 function showError(message) {
+  window.dispatchEvent(new Event("lunacorr:explorer-error"));
   $("error").textContent = message;
   $("error").hidden = false;
 }
