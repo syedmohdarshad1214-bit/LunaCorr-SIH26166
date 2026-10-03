@@ -52,7 +52,7 @@ def main() -> None:
 
     frontend = ROOT / "frontend"
     copy(frontend / "index.html", "index.html")
-    for name in ("explorer.css", "evidence-panel.css", "explorer.js"):
+    for name in ("explorer.css", "evidence-panel.css", "explorer.js", "startup-loader.html", "startup-loader.js", "vendor/three-r128.min.js"):
         copy(frontend / name, f"static/{name}")
     for source in (frontend / "assets/reports").iterdir():
         if source.is_file():
